@@ -1,0 +1,1256 @@
+================================================================================
+HTML FROM URL: http://irsg.bcs.org/ksjaward.php
+================================================================================
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   KSJ Award
+  </title>
+  <link href="/main.css" rel="stylesheet" type="text/css"/>
+  <!--[if lt IE 7]>
+        <link rel="stylesheet" type="text/css" href="ie6.css" />
+        <![endif]-->
+  <script language="JavaScript" type="text/javascript">
+   function openpopup(popurl){
+                winpops=window.open(popurl,"","width=600,height=500, scrollbars, resizable")
+            }
+
+            function checkOK(){
+                var ok=confirm("Please confirm that the information you provide is correct?");
+                if (ok)
+                    return true;
+                else
+                    return false;
+            }
+  </script>
+ </head>
+ <body>
+  <center>
+   <div class="c1" id="topshadow">
+   </div>
+  </center>
+  <!-- Begin Wrapper -->
+  <div id="shadow">
+   <div id="wrapper">
+    <!-- Begin Header -->
+    <div id="header">
+     <!-- ##### Group Title ##### -->
+     <p class="title">
+      Information Retrieval Specialist Group
+     </p>
+     <!-- ##### End Group Title ##### -->
+     <!-- ### Utility Menu ## -->
+     <!--<ul id="utility">
+                        <li class="navend1">
+                            <a href="/index.php">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About IRSG</a>
+                        </li>
+                    </ul>-->
+     <!-- ### End Utility Menu ## -->
+    </div>
+    <!-- End Header -->
+    <!-- #### Main Naviagtion ##### -->
+    <div id="navigation">
+     <ul id="navigation1">
+      <li class="navend" style="width: 135px;">
+       <a href="/index.php">
+        <span>
+         HOME
+        </span>
+       </a>
+      </li>
+      <li class="navend" style="width: 135px;">
+       <a href="/committee.php">
+        <span>
+         COMMITTEE
+        </span>
+       </a>
+      </li>
+      <li class="navend" style="width: 135px;">
+       <a href="/membership.php">
+        <span>
+         JOIN
+        </span>
+       </a>
+      </li>
+      <li class="navend" style="width: 135px;">
+       <a href="/about.php">
+        <span>
+         ABOUT
+        </span>
+       </a>
+      </li>
+      <li class="navend" style="width: 135px;">
+       <a href="/committee.php">
+        <span>
+         CONTACT
+        </span>
+       </a>
+      </li>
+      <li class="navend" style="width: 115px;">
+       <a href="http://www.bcs.org">
+        <span>
+         BCS
+        </span>
+       </a>
+      </li>
+      <!--<li style="width: 115px;" ><a href="index.htm"><span>Item 6</span></a></li>-->
+     </ul>
+    </div>
+    <!-- ##### End Main Naviagtion ##### -->
+    <!-- ##### Start Breadcrumb Trail ##### -->
+    <!--
+                <div id="breadcrumb">
+                    <p class="breadcrumb">
+                        <a href="/index.php">IRSG<img src="/images/house.gif" border="0" alt="Home"  /></a>
+                        <a href="http://www.bcs.org">Iseb</a>
+                        <a href="http://www.bcs.org">How to apply</a>
+                        Here
+                    </p>
+
+                </div>
+                -->
+    <!-- #### End Breadcrumb Trail #####  -->
+    <div id="content">
+     <!-- #### Start Left Navigation #####  -->
+     <div>
+      <ul class="white">
+       <li>
+        <a href="/membership.php">
+         Membership
+        </a>
+       </li>
+       <li>
+        <a href="/display_informers.php">
+         Informer
+        </a>
+       </li>
+       <!--<li><a href="/display_events.php">Announcements</a></li>
+                        <li><a href="/dconf.php">Events</a></li>-->
+       <li>
+        <a href="/ecir.php">
+         ECIR
+        </a>
+       </li>
+       <li>
+        <a href="/ksjaward.php">
+         KSJ Award
+        </a>
+       </li>
+       <li>
+        <a href="/siawards.php">
+         Search Industry Awards
+        </a>
+       </li>
+       <li>
+        <a href="/SearchSolutions/2017/sse2017.php">
+         Search Solutions
+        </a>
+       </li>
+       <li>
+        <a href="/AGM/agm.php">
+         AGM
+        </a>
+       </li>
+       <li>
+        <a href="/committee_meetings.php">
+         Committee Meetings
+        </a>
+       </li>
+       <li>
+        <a href="/display_groups.php">
+         Groups
+        </a>
+       </li>
+       <li>
+        <a href="/display_resources.php">
+         Resources
+        </a>
+       </li>
+      </ul>
+     </div>
+     <!--SELECTED -->
+     <!-- <ul class="green">
+                        <li>Informer</li>
+                    </ul>
+
+                    <ul class="white">
+                        <li>Announcements</li>
+                        <li><a href="#">ECIR</a></li>
+                        <li><a href="#">KSJ Award</a></li>
+                        <li><a href="#">Search Solutions</a></li>
+
+                    </ul>-->
+     <!-- Sub Level -->
+     <!--
+                    <ul class="grey">
+                        <li>Announcements</li>
+                        <li><a href="#">ECIR</a></li>
+                        <li><a href="#">KSJ Award</a></li>
+                        <li><a href="#">Search Solutions</a></li>
+
+                    </ul>
+                    <ul class="white">
+                        <li>FDIA</li>
+                        <li><a href="#">AGM</a></li>
+                        <li><a href="#">Groups</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>-->
+     <div>
+      <div id="curlbottom">
+      </div>
+     </div>
+     <div>
+      <a class="twitter-timeline" data-widget-id="375994126669316096" href="https://twitter.com/bcs_irsg" width="250">
+       Tweets by @bcs_irsg
+      </a>
+      <script>
+       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+     </div>
+    </div>
+    <!-- #### End Left Navigation #####  -->
+    <div id="rightcolumn">
+     <!-- #### Start Right Navigation #####  -->
+     <div id="third">
+      <!--### Block One ### -->
+      <!--<div>
+                            <p class="header">Latest industry news</p>
+
+                            <ul>
+                                <li class="thirdblock"><a href="http://www.bcs.org">How to apply</a>
+                                    <br />
+                                    If you are intrested in becoming a IT professional.</li>
+
+
+                                <li class="thirdblock"><a href="http://www.bcs.org">How to apply</a>
+                                    <br />
+                                    If you are intrested in becoming a IT professional.</li>
+
+                            </ul>
+                        </div>-->
+      <!-- Introduced a twitter followus button 21/4/13, deleted on -->
+      <!--
+						<div>
+						<a href="https://twitter.com/bcs_irsg" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @bcs_irsg</a>
+								<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: 'from:bcs_irsg',
+  interval: 4000,
+//  title: 'Terrier Team Tweets',
+  subject: '<h4>BCS IRSG Tweets</h4>',
+ //<p class="style8">Terrier Team Tweets </p>
+  width: 200,
+  height: 100,
+  theme: {
+    shell: {
+      background: '#ffffff',
+      color: '#666666'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#2a5a8a',
+    },
+  },
+
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'default'
+  }
+}).render().start();
+
+</script>
+
+
+
+						</div>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                        -->
+      <!--### End Block One ### -->
+      <!--### Block Two ### -->
+      <div>
+       <p class="header">
+        IRSG Supported Events
+       </p>
+       <ul>
+        <!--
+				<li class="thirdblock">
+
+                                    <a href="http://www.ictir2013.org/">
+                                        <center>
+                                            <IMG border="0" height="60" width="125"  SRC="http://www.ictir2013.org/images/blueGrey-logo-001.jpg" ALT="ICTIR 2013"/>
+                                        </center>
+                                    </a></li>
+					-->
+        <li class="thirdblock">
+         <a href="http://www.sigir.org/sigir2017">
+          <center>
+           <img alt="SIGIR 2017" border="0" height="125" src="http://sigir.org/sigir2017/cms/wp-content/themes/sigir2017/images/site-title.png" width="125"/>
+          </center>
+         </a>
+        </li>
+        <li class="thirdblock">
+         <a href="http://irsg.bcs.org/SearchSolutions/2017/sse2017.php">
+          <center>
+           <img alt="Search Solutions 2017" border="0" height="60" src="/SearchSolutions/2011/ssnewlogo.jpg" width="90"/>
+          </center>
+         </a>
+        </li>
+        <li class="thirdblock">
+         <a href="http://ecir2018.org/">
+          <center>
+           <img alt="ECIR 2018" border="0" height="60" src="https://pbs.twimg.com/profile_images/849339349883858948/aAgukONT_400x400.jpg" width="125"/>
+          </center>
+         </a>
+        </li>
+       </ul>
+       <p>
+        <center>
+         <a href="/pastsupportedevents.php">
+          Past Events
+         </a>
+        </center>
+       </p>
+       <br/>
+      </div>
+      <!--### End Block Two ### -->
+      <div>
+       <p class="header">
+        Informer
+       </p>
+       <ul>
+        <li class="thirdblock">
+         <center>
+          <a href="http://irsg.bcs.org/informer">
+           <img alt="Informer" border="0" height="69" src="/images/InformerIcon.jpg" width="85"/>
+          </a>
+         </center>
+         <br/>
+         Read about IRSG activity in the latest Edition of
+         <b>
+          Informer
+         </b>
+         .
+        </li>
+        <li class="thirdblock">
+         <a href="http://www.bcs.org">
+          How to apply
+         </a>
+         <br/>
+         If you are intrested in becoming a IT professional.
+        </li>
+        <li class="thirdblock">
+         <center>
+          <a href="join_form.php">
+           <img alt="BCS-IRSG postcard" border="0" src="/images/bcsirsg_postcardIcon.jpg" width="110"/>
+          </a>
+         </center>
+         <br/>
+         <b>
+          Join
+         </b>
+         the BCS-IRSG!
+        </li>
+       </ul>
+      </div>
+      <br/>
+      <!-- -->
+      <div>
+       <p class="header">
+        Web Badge
+       </p>
+       <ul>
+        <li class="thirdblock">
+         <a href="http://irsg.bcs.org">
+          <img alt="Visit irsg.bcs.org" src="/images/irsg.gif" style="border:0"/>
+         </a>
+         <br/>
+         If you are a member of the
+         <b>
+          BCS IRSG
+         </b>
+         show your affiliation by displaying our Web Badge on your page.
+                                    Click
+         <a href="javascript:openpopup(\'code.php\')">
+         </a>
+         here
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
+for code.
+<br/>
+<!-- #### End Right Navigation #####  -->
+<!-- #### Start Main content #####  -->
+<!-- ### Document title ### -->
+<h1>
+ Microsoft BCS/BCS IRSG Karen Spärck Jones Award
+ <br/>
+ An Award to Commemorate Karen Spärck Jones
+</h1>
+<!-- ### Document date ### -->
+<!--<p class="smalldate"> Jan 09, 2018</p>-->
+<!-- ### Document image ### -->
+<!--<img src="images/feature.jpg" alt="feature" width="450" height="175" />-->
+<div id="holder">
+ <p>
+  The British Computer Society Information Retrieval Specialist Group
+(BCS IRSG) in conjunction with the BCS created an award in 2008 to commemorate
+the achievements of Karen Spärck Jones.
+ </p>
+ <table cellspacing="10px">
+  <tr>
+   <td>
+    <img align="center" alt="KSJ" src="./ksjaward/ksj.png"/>
+   </td>
+   <td>
+    Karen was a Professor Emerita of Computers and Information at the
+University of Cambridge and one of the most remarkable women in computer
+science. Her contributions to the fields of Information Retrieval (IR) and
+Natural Language Processing (NLP), especially with regard to
+experimentation, have been outstanding and highly influential. Karen's
+achievements resulted in her receiving a number of prestigious accolades
+such as the BCS Lovelace medal for her advancement in Information
+Systems, and the ACM Salton Award for her significant, sustained and
+continuing contributions to research in information retrieval.
+   </td>
+   <tr>
+   </tr>
+  </tr>
+ </table>
+ <br/>
+ <p>
+  The IRSG is grateful to Microsoft Research for their sponsorship of the
+Karen Spärck-Jones award.
+ </p>
+ <br/>
+ <p>
+  Sponsered by:
+  <br/>
+  <img alt="Microsoft Research" src="./images/MSRLogoDigitalBlack.png" width="250"/>
+  <br/>
+  <br/>
+  <!--
+<p>Timeline for the 2017 Award (to be presented in ECIR 2018):
+  <ul class="mainlist">
+    <li>12 September 2017 - closing date for nominations</li>
+    <li>26 September 2017 - deadline for support letters</li>
+    <li>14 December 2017 - notification of the prize recipient</li>
+    <li>25-29 March 2018 - recipient presents keynote at ECIR</li>
+  </ul>
+</p>
+-->
+  <h2>
+   Recipient of the Karen Spärck Jones award 2017
+  </h2>
+  <p>
+   We are pleased to announce that the Microsoft BCS/BCS IRSG Karen Spärck Jones Award 2017 is to be awarded to:
+   <br/>
+   <br/>
+   <b>
+    Fernando Diaz
+   </b>
+   <br/>
+   Director of Research at Spotify
+   <br>
+    <br/>
+    The panel of independent experts in information retrieval (IR) and natural language processing (NLP)
+    was particularly impressed by his great breadth and excellence of research, his raising of important issues,
+    such as ethical issues, and his service to the community.
+    In addition to that, the fact that Fernando has made major contributions in both IR and NLP is in the very spirit
+    of the award.
+    Congratulations and we are looking forward to an inspiring
+    <a href="http://www.ecir2018.org/keynote-speakers/">
+     keynote talk at ECIR 2018
+    </a>
+    in Grenoble!
+   </br>
+  </p>
+  <br/>
+  <h2>
+   Recipient of the Karen Spärck Jones award 2016
+  </h2>
+  <p>
+   In 2016, the award panel had the difficult task to decide between a
+   range of candidates with outstanding research credentials, all of which
+   lead an impressive research programme with a view to advance our
+   understanding of IR and/or NLP through experimentation. In giving the
+   award to
+   <br/>
+   <br/>
+   <b>
+    Jaime Teevan
+   </b>
+   <br/>
+   Affiliate Associate Professor at the University of Washington, Seattle, USA
+   <br/>
+   Principal Researcher at Microsoft Research, Redmond, USA
+   <br/>
+   <br/>
+   the award panel recognises Jaime's technically strong and exceptionally
+   creative contributions to the intersection of information retrieval,
+   user experience and social media. In particular, Jaime has advanced our
+   understanding of information retrieval through her contributions to
+   design, implementation and careful evaluation of new retrieval
+   algorithms and user experiences.
+   <br/>
+   Jaime will give
+   <a href="http://www.ecir2017.org/ksj-award/">
+    a keynote at ECIR 2017
+   </a>
+   .
+  </p>
+  <h2>
+   Recipients of the Karen Spärck Jones award 2015
+  </h2>
+  <p>
+   In 2015, the award panel was highly impressed both by the quality and
+diversity of the field of candidates: it faced a hard time narrowing down
+the nominations to a short list. Even more so, it turned out the panel
+experienced a genuine difficulty of deciding between the two candidates
+who best matched the award criterion "To have endeavoured to advance our
+understanding of IR and/or NLP through experimentation." As a consequence,
+and unique to 2015, the panel decided to make two full awards. In
+alphabetical order:
+   <br/>
+   <br/>
+   <b>
+    Jordan Boyd-Graber
+   </b>
+   <br/>
+   Assistant Professor, Computer Science Department
+   <br/>
+   University of Colorado, USA
+   <br/>
+   <br/>
+   The panel recognised Jordan's technically strong and creative work on
+probabilistic topic models, in particular, how his work has shown that the
+semantic coherence of these topics can be systematically assessed, how
+linguistic knowledge such as word senses, syntactic relations and
+inter-language relationships can be incorporated - and crucially - how
+user feedback can easily and iteratively be integrated into learned topic
+models to improve the semantic coherence of the topics. The panel thought
+that Jordan has shaped our understanding of NLP in new and important ways
+through experimental machine learning research.
+   <br/>
+   <br/>
+   Jordan gave a
+   <a href="http://ecir2016.dei.unipd.it/keynotes.html">
+    keynote at ECIR 2016
+   </a>
+   on interactive machine
+learning for understanding large document collections.
+   <br/>
+   <br/>
+   <b>
+    Emine Yilmaz
+   </b>
+   <br/>
+   Lecturer, Department of Computer Science
+   <br/>
+   University College London, UK
+   <br/>
+   <br/>
+   The panel was impressed by the body of Emine's research on evaluation
+techniques to better match the realities of modern information systems, in
+particular her work on missing user judgments, her proposed new metrics
+that are more robust to missing data and her work on expected browsing
+utility as a new evaluation metric derived from interaction patterns of
+real web search sessions. Her recent work focused on devising and
+evaluating the quality of task based information retrieval systems,
+retrieval systems that can help the user complete the task that have led
+them issue a query to a search engine, as opposed to just retrieving a
+list of documents relevant to the query submitted. The panel recognized
+that Emine's research has pushed the field of IR forward in these
+important aspects and that her work has had a high impact on academia and
+practice.
+   <br/>
+   <br/>
+   Emine gave a
+   <a href="http://ecir2016.dei.unipd.it/keynotes.html">
+    keynote at ECIR 2016
+   </a>
+   on a task-based perspective
+to Information Retrieval.
+  </p>
+  <h2>
+   Recipient of the Karen Spärck Jones award 2014
+  </h2>
+  <p>
+   <b>
+    Ryen White
+   </b>
+   <br/>
+   Senior Researcher at Microsoft Research
+   <br/>
+   Redmond, USA
+   <br/>
+  </p>
+  The award panel recognises that Ryen White has contributed in many layers to a better understanding of search interaction, eg, through novel and
+creative analyses of vital and as of yet unexplored aspects of searcher
+behavior closely coupled with the development of models and applications for improving the search experience. The panel was highly impressed by Ryen's academic output, many as leading or sole author, using experimental methods of large-scale log analyses, user studies and surveys.  His sheer
+productivity, the take-up of his work in academia and a number of best
+paper awards at prestigious conferences including ACM SIGIR (3x), ACM
+CIKM, ACM SIGCHI and in JASIST speak for themselves. It is also a hallmark of Ryen's professional activity that he continued to serve the academic
+community though reviewing, track chairing and PC co-chairing at top
+conferences, editorial board memberships and guest editing while being a researcher in industry.
+ </p>
+ <p>
+  Ryen gave a
+  <a href="http://ecir2015.ifs.tuwien.ac.at/wp/?page_id=572">
+   keynote at ECIR 2015
+  </a>
+  on Mining and Modelling Online Health Search. The slides of his lecture are available
+  <a href=" http://research.microsoft.com/en-us/um/people/ryenw/talks/pdf/WhiteECIR2015.pdf">
+   here
+  </a>
+ </p>
+ <h2>
+  Recipient of the 2013 award
+ </h2>
+ <p>
+  <b>
+   Eugene Agichtein
+  </b>
+  <br/>
+  Associate Professor
+  <br/>
+  Mathematics and Computer Science Department
+  <br/>
+  Emory University, Atlanta, USA
+  <br>
+   <p>
+    In making the BCS/ BCS IRSG Karen Spärck-Jones Award for 2013, the Panel strongly recognizes that Eugene Agichtein has made several important contributions in search and large scale web text data mining with a focus on user interaction data. Eugene's work has included demonstrating how models of human information interactions can be inferred by leveraging computational techniques on what are large-scale but also noisy behaviour records. His work has been very influential - the depth of which across several areas is impressive.
+   </p>
+   <p>
+    Eugene has focused on understanding and modelling user interaction in web search and collaborative question answering. For example, he has shown that click through and other forms of implicit feedback are useful for improving search results ranking when gathered across large numbers of users. This is one area of contribution where his work is seen as particularly influential. Eugene's work includes mouse movements and prediction of responses to advertising, and has reached out to other domains too. Overall, Eugene Agichtein's work is regarded as that of an excellent experimentalist that recognizes the critical linkages between information theory and experiment.
+   </p>
+   <p>
+    Eugene gave a keynote speech at ECIR 2014.
+   </p>
+   <p>
+    <h2>
+     Recipient of the 2012 award
+    </h2>
+    <p>
+     <b>
+      Diane Kelly
+     </b>
+     <br/>
+     Associate Professor
+     <br/>
+     University of North Carolina, NC, USA
+     <br>
+      <p>
+       In making the BCS/ BCS IRSG Karen Spärck-Jones Award for 2012, the Panel strongly recognizes that Diane has made important contributions to:
+       <i>
+        the analysis of information seeking behaviors, and to the development of new experimental methods and systems to support information seeking and analysis
+       </i>
+       .
+      </p>
+      <p>
+       Diane has made several other important contributions to user modeling using implicit indicators of relevance, the development and analysis of interfaces to
+elicit richer statements of interest, and new methodologies for designing and evaluating interactive retrieval systems.
+Her strong user-oriented work views users-as-people with cognitive tasks.
+      </p>
+      <p>
+       Diane gave a keynote speech at ECIR 2013. The slides of her talk are
+available for
+       <a href="ksjaward/kelly_keynote_ecir.pdf">
+        download
+       </a>
+      </p>
+      <h2>
+       No award was made in 2011
+      </h2>
+      <p>
+      </p>
+      <h2>
+       Recipient of the 2010 award
+      </h2>
+      <p>
+       <b>
+        Evgeniy Gabrilovich
+       </b>
+       <br/>
+       Senior Research Scientist and Manager of the NLP &amp; IR Group of Yahoo! Research, California, U.S.
+       <br/>
+       <br/>
+       Evgeniy gave a keynote speech at ECIR 2011. The abstract of his talk and
+    his bio is
+       <a href="ksjaward/gabr_ksj.pdf">
+        available
+       </a>
+       .
+      </p>
+      <h2>
+       Recipient of the 2009 award
+      </h2>
+      <p>
+       The first recipient of the KSJ award is
+       <br>
+        <br>
+         <b>
+          Mirella Lapata
+         </b>
+         <br>
+          Reader (Assoc Prof)
+          <br/>
+          School of Informatics
+          <br/>
+          University of Edinburgh
+          <br/>
+          <br/>
+          Mirella's research has focused on various problems in NLP mostly with an emphasis
+        on statistical methods and text generation applications. She has worked on
+        complex problems like: word sense disambiguation, ambiguity resolution,
+        semantic vector space, story generation, and many others.
+         </br>
+        </br>
+       </br>
+      </p>
+      <p>
+       The abstract of her talk at ECIR 2009 and her bio is available for
+       <a href="ksjaward/topic_models.pdf">
+        download
+       </a>
+       .
+      </p>
+      <h3>
+       Previous panel members
+      </h3>
+      <p>
+       List of previous panel members in alphabetical order:
+       <ul class="mainlist">
+        <li>
+         Nicholas Belkin, Rutgers University
+        </li>
+        <li>
+         Pia Borlund, University of Copenhagen
+        </li>
+        <li>
+         Ann Copestake, University of Cambridge
+        </li>
+        <li>
+         Susan Dumais, Microsoft Research
+        </li>
+        <li>
+         Rob Gaizauskas, Sheffield University
+        </li>
+        <li>
+         Ayse Goker, Robert Gordon University (chair 2009-2013)
+        </li>
+        <li>
+         Katja Hofmann, Microsoft Research Cambridge
+        </li>
+        <li>
+         Joemon Jose, University of Glasgow
+        </li>
+        <li>
+         Udo Kruschwitz, University of Essex (chair 2017)
+        </li>
+        <li>
+         Rada Mihalcea, University of Michigan
+        </li>
+        <li>
+         Marie-Francine Moens, Katholieke Universiteit Leuven
+        </li>
+        <li>
+         Doug Oard, University of Maryland
+        </li>
+        <li>
+         Carol Peters, CNR Pisa
+        </li>
+        <li>
+         Stephen Robertson, City University and University College London
+        </li>
+        <li>
+         Stefan Rueger, The Open University, UK (chair 2014-2016)
+        </li>
+        <li>
+         Tomek Strzalkowski, SUNY Albany
+        </li>
+        <li>
+         Bonnie Webber, University of Edinburgh
+        </li>
+        <li>
+         Marti Hearst, University of California, Berkeley
+        </li>
+        <li>
+         Mark Sanderson, RMIT
+        </li>
+        <li>
+         Milad Shokouhi, Microsoft Research
+        </li>
+       </ul>
+       <p>
+       </p>
+      </p>
+     </br>
+    </p>
+   </p>
+  </br>
+ </p>
+</div>
+<!-- #### End Main content #####  -->
+<!-- #### Start Footer #####  -->
+<div id="footer">
+ <p class="footer">
+  <a href="http://www.bcs.org/server.php?show=nav.5656">
+   Copyright BCS 2009
+  </a>
+  <a href="http://www.bcs.org/server.php?show=nav.5655">
+   Legal and Privacy Notices
+  </a>
+  BCS is a registered charity: No 292786
+ </p>
+ Page last modified: Jan 09, 2018
+ <br>
+ </br>
+</div>
+<!-- #### end Footer #####  -->
+<center>
+ <div id="bottomshadow">
+ </div>
+</center>
+<!-- End Wrapper -->
+
+================================================================================
+TEXT PARSED FROM HTML
+================================================================================
+(title, "KSJ Award")
+(h, "Microsoft BCS/BCS IRSG Karen Spärck Jones Award An Award to Commemorate Karen Spärck Jones")
+(h, "Recipient of the Karen Spärck Jones award 2017")
+(h, "Recipient of the Karen Spärck Jones award 2016")
+(h, "Recipients of the Karen Spärck Jones award 2015")
+(h, "Recipient of the Karen Spärck Jones award 2014")
+(h, "Recipient of the 2013 award")
+(h, "Recipient of the 2012 award")
+(h, "No award was made in 2011")
+(h, "Recipient of the 2010 award")
+(h, "Recipient of the 2009 award")
+(h, "Previous panel members")
+(contents, "
+Information Retrieval Specialist Group
+HOME
+COMMITTEE
+JOIN
+ABOUT
+CONTACT
+BCS
+Membership
+Informer
+
+ECIR
+KSJ Award
+Search Industry Awards
+Search Solutions
+AGM
+Committee Meetings
+Groups
+Resources
+Tweets by @bcs_irsg
+IRSG Supported Events
+Past Events
+Informer
+Read about IRSG activity in the latest Edition of Informer.
+How to apply
+
+If you are intrested in becoming a IT professional.
+Join the BCS-IRSG!
+Web Badge
+If you are a member of the BCS IRSG
+show your affiliation by displaying our Web Badge on your page.
+Click here for code.
+The British Computer Society Information Retrieval Specialist Group
+(BCS IRSG) in conjunction with the BCS created an award in 2008 to commemorate
+the achievements of Karen Spärck Jones.
+Karen was a Professor Emerita of Computers and Information at the
+University of Cambridge and one of the most remarkable women in computer
+science. Her contributions to the fields of Information Retrieval (IR) and
+Natural Language Processing (NLP), especially with regard to
+experimentation, have been outstanding and highly influential. Karen's
+achievements resulted in her receiving a number of prestigious accolades
+such as the BCS Lovelace medal for her advancement in Information
+Systems, and the ACM Salton Award for her significant, sustained and
+continuing contributions to research in information retrieval.
+		
+The IRSG is grateful to Microsoft Research for their sponsorship of the
+Karen Spärck-Jones award.
+Sponsered by:
+We are pleased to announce that the Microsoft BCS/BCS IRSG Karen Spärck Jones Award 2017 is to be awarded to:
+Fernando Diaz
+Director of Research at Spotify
+
+The panel of independent experts in information retrieval (IR) and natural language processing (NLP)
+was particularly impressed by his great breadth and excellence of research, his raising of important issues,
+such as ethical issues, and his service to the community.
+In addition to that, the fact that Fernando has made major contributions in both IR and NLP is in the very spirit
+of the award.
+Congratulations and we are looking forward to an inspiring  keynote talk at ECIR 2018 in Grenoble!
+In 2016, the award panel had the difficult task to decide between a
+range of candidates with outstanding research credentials, all of which
+lead an impressive research programme with a view to advance our
+understanding of IR and/or NLP through experimentation. In giving the
+award to
+Jaime Teevan
+Affiliate Associate Professor at the University of Washington, Seattle, USA
+Principal Researcher at Microsoft Research, Redmond, USA
+
+the award panel recognises Jaime's technically strong and exceptionally
+creative contributions to the intersection of information retrieval,
+user experience and social media. In particular, Jaime has advanced our
+understanding of information retrieval through her contributions to
+design, implementation and careful evaluation of new retrieval
+algorithms and user experiences.
+
+Jaime will give a keynote at ECIR 2017.
+In 2015, the award panel was highly impressed both by the quality and
+diversity of the field of candidates: it faced a hard time narrowing down
+the nominations to a short list. Even more so, it turned out the panel
+experienced a genuine difficulty of deciding between the two candidates
+who best matched the award criterion "To have endeavoured to advance our
+understanding of IR and/or NLP through experimentation." As a consequence,
+and unique to 2015, the panel decided to make two full awards. In
+alphabetical order:
+Jordan Boyd-Graber
+Assistant Professor, Computer Science Department
+University of Colorado, USA
+The panel recognised Jordan's technically strong and creative work on
+probabilistic topic models, in particular, how his work has shown that the
+semantic coherence of these topics can be systematically assessed, how
+linguistic knowledge such as word senses, syntactic relations and
+inter-language relationships can be incorporated - and crucially - how
+user feedback can easily and iteratively be integrated into learned topic
+models to improve the semantic coherence of the topics. The panel thought
+that Jordan has shaped our understanding of NLP in new and important ways
+through experimental machine learning research.
+
+Jordan gave a  keynote at ECIR 2016 on interactive machine
+learning for understanding large document collections.
+Emine Yilmaz
+Lecturer, Department of Computer Science
+University College London, UK
+
+The panel was impressed by the body of Emine's research on evaluation
+techniques to better match the realities of modern information systems, in
+particular her work on missing user judgments, her proposed new metrics
+that are more robust to missing data and her work on expected browsing
+utility as a new evaluation metric derived from interaction patterns of
+real web search sessions. Her recent work focused on devising and
+evaluating the quality of task based information retrieval systems,
+retrieval systems that can help the user complete the task that have led
+them issue a query to a search engine, as opposed to just retrieving a
+list of documents relevant to the query submitted. The panel recognized
+that Emine's research has pushed the field of IR forward in these
+important aspects and that her work has had a high impact on academia and
+practice.
+
+Emine gave a  keynote at ECIR 2016 on a task-based perspective
+to Information Retrieval.
+Ryen White
+Senior Researcher at Microsoft Research
+Redmond, USA
+
+The award panel recognises that Ryen White has contributed in many layers to a better understanding of search interaction, eg, through novel and
+creative analyses of vital and as of yet unexplored aspects of searcher
+behavior closely coupled with the development of models and applications for improving the search experience. The panel was highly impressed by Ryen's academic output, many as leading or sole author, using experimental methods of large-scale log analyses, user studies and surveys.  His sheer
+productivity, the take-up of his work in academia and a number of best
+paper awards at prestigious conferences including ACM SIGIR (3x), ACM
+CIKM, ACM SIGCHI and in JASIST speak for themselves. It is also a hallmark of Ryen's professional activity that he continued to serve the academic
+community though reviewing, track chairing and PC co-chairing at top
+conferences, editorial board memberships and guest editing while being a researcher in industry.
+Ryen gave a keynote at ECIR 2015 on Mining and Modelling Online Health Search. The slides of his lecture are available here
+Eugene Agichtein
+Associate Professor
+Mathematics and Computer Science Department
+Emory University, Atlanta, USA
+	
+In making the BCS/ BCS IRSG Karen Spärck-Jones Award for 2013, the Panel strongly recognizes that Eugene Agichtein has made several important contributions in search and large scale web text data mining with a focus on user interaction data. Eugene's work has included demonstrating how models of human information interactions can be inferred by leveraging computational techniques on what are large-scale but also noisy behaviour records. His work has been very influential - the depth of which across several areas is impressive.
+Eugene has focused on understanding and modelling user interaction in web search and collaborative question answering. For example, he has shown that click through and other forms of implicit feedback are useful for improving search results ranking when gathered across large numbers of users. This is one area of contribution where his work is seen as particularly influential. Eugene's work includes mouse movements and prediction of responses to advertising, and has reached out to other domains too. Overall, Eugene Agichtein's work is regarded as that of an excellent experimentalist that recognizes the critical linkages between information theory and experiment.
+Eugene gave a keynote speech at ECIR 2014.
+Diane Kelly
+Associate Professor
+University of North Carolina, NC, USA
+	
+In making the BCS/ BCS IRSG Karen Spärck-Jones Award for 2012, the Panel strongly recognizes that Diane has made important contributions to:
+the analysis of information seeking behaviors, and to the development of new experimental methods and systems to support information seeking and analysis.
+Diane has made several other important contributions to user modeling using implicit indicators of relevance, the development and analysis of interfaces to
+elicit richer statements of interest, and new methodologies for designing and evaluating interactive retrieval systems.
+Her strong user-oriented work views users-as-people with cognitive tasks.
+Diane gave a keynote speech at ECIR 2013. The slides of her talk are
+available for download
+Evgeniy Gabrilovich
+Senior Research Scientist and Manager of the NLP & IR Group of Yahoo! Research, California, U.S.
+Evgeniy gave a keynote speech at ECIR 2011. The abstract of his talk and
+his bio is available.
+The first recipient of the KSJ award is
+	
+Mirella Lapata
+Reader (Assoc Prof)
+School of Informatics
+University of Edinburgh
+
+Mirella's research has focused on various problems in NLP mostly with an emphasis
+on statistical methods and text generation applications. She has worked on
+complex problems like: word sense disambiguation, ambiguity resolution,
+semantic vector space, story generation, and many others.
+The abstract of her talk at ECIR 2009 and her bio is available for download.
+List of previous panel members in alphabetical order:
+
+Nicholas Belkin, Rutgers University
+Pia Borlund, University of Copenhagen
+Ann Copestake, University of Cambridge
+Susan Dumais, Microsoft Research
+Rob Gaizauskas, Sheffield University
+Ayse Goker, Robert Gordon University (chair 2009-2013)
+Katja Hofmann, Microsoft Research Cambridge
+Joemon Jose, University of Glasgow
+Udo Kruschwitz, University of Essex (chair 2017)
+Rada Mihalcea, University of Michigan
+Marie-Francine Moens, Katholieke Universiteit Leuven
+Doug Oard, University of Maryland
+Carol Peters, CNR Pisa
+Stephen Robertson, City University and University College London
+Stefan Rueger, The Open University, UK (chair 2014-2016)
+Tomek Strzalkowski, SUNY Albany
+Bonnie Webber, University of Edinburgh
+Marti Hearst, University of California, Berkeley
+Mark Sanderson, RMIT
+Milad Shokouhi, Microsoft Research
+Copyright BCS 2009
+Legal and Privacy Notices
+  BCS is a registered charity: No 292786
+
+Page last modified: Jan 09, 2018 
+")
+
+================================================================================
+TOKENIZED TEXT
+================================================================================
+(title, ["ksj", "award"])
+(h, ["microsoft", "bcs", "bcs", "irsg", "karen", "spärck", "jones", "award", "an", "award", "to", "commemorate", "karen", "spärck", "jones"])
+(h, ["recipient", "of", "the", "karen", "spärck", "jones", "award", "2017"])
+(h, ["recipient", "of", "the", "karen", "spärck", "jones", "award", "2016"])
+(h, ["recipients", "of", "the", "karen", "spärck", "jones", "award", "2015"])
+(h, ["recipient", "of", "the", "karen", "spärck", "jones", "award", "2014"])
+(h, ["recipient", "of", "the", "2013", "award"])
+(h, ["recipient", "of", "the", "2012", "award"])
+(h, ["no", "award", "was", "made", "in", "2011"])
+(h, ["recipient", "of", "the", "2010", "award"])
+(h, ["recipient", "of", "the", "2009", "award"])
+(h, ["previous", "panel", "members"])
+(contents, ["information", "retrieval", "specialist", "group", "home", "committee", "join", "about", "contact", "bcs", "membership", "informer", "ecir", "ksj", "award", "search", "industry", "awards", "search", "solutions", "agm", "committee", "meetings", "groups", "resources", "tweets", "by", "@", "bcs_irsg", "irsg", "supported", "events", "past", "events", "informer", "read", "about", "irsg", "activity", "in", "the", "latest", "edition", "of", "informer", "."])
+(contents, ["how", "to", "apply", "if", "you", "are", "intrested", "in", "becoming", "a", "it", "professional", "."])
+(contents, ["join", "the", "bcs-irsg", "!"])
+(contents, ["web", "badge", "if", "you", "are", "a", "member", "of", "the", "bcs", "irsg", "show", "your", "affiliation", "by", "displaying", "our", "web", "badge", "on", "your", "page", "."])
+(contents, ["click", "here", "for", "code", "."])
+(contents, ["the", "british", "computer", "society", "information", "retrieval", "specialist", "group", "(", "bcs", "irsg", ")", "in", "conjunction", "with", "the", "bcs", "created", "an", "award", "in", "2008", "to", "commemorate", "the", "achievements", "of", "karen", "spärck", "jones", "."])
+(contents, ["karen", "was", "a", "professor", "emerita", "of", "computers", "and", "information", "at", "the", "university", "of", "cambridge", "and", "one", "of", "the", "most", "remarkable", "women", "in", "computer", "science", "."])
+(contents, ["her", "contributions", "to", "the", "fields", "of", "information", "retrieval", "(", "ir", ")", "and", "natural", "language", "processing", "(", "nlp", ")", ",", "especially", "with", "regard", "to", "experimentation", ",", "have", "been", "outstanding", "and", "highly", "influential", "."])
+(contents, ["karens", "achievements", "resulted", "in", "her", "receiving", "a", "number", "of", "prestigious", "accolades", "such", "as", "the", "bcs", "lovelace", "medal", "for", "her", "advancement", "in", "information", "systems", ",", "and", "the", "acm", "salton", "award", "for", "her", "significant", ",", "sustained", "and", "continuing", "contributions", "to", "research", "in", "information", "retrieval", "."])
+(contents, ["the", "irsg", "is", "grateful", "to", "microsoft", "research", "for", "their", "sponsorship", "of", "the", "karen", "spärck-jones", "award", "."])
+(contents, ["sponsered", "by", "we", "are", "pleased", "to", "announce", "that", "the", "microsoft", "bcs", "bcs", "irsg", "karen", "spärck", "jones", "award", "2017", "is", "to", "be", "awarded", "to", "fernando", "diaz", "director", "of", "research", "at", "spotify", "the", "panel", "of", "independent", "experts", "in", "information", "retrieval", "(", "ir", ")", "and", "natural", "language", "processing", "(", "nlp", ")", "was", "particularly", "impressed", "by", "his", "great", "breadth", "and", "excellence", "of", "research", ",", "his", "raising", "of", "important", "issues", ",", "such", "as", "ethical", "issues", ",", "and", "his", "service", "to", "the", "community", "."])
+(contents, ["in", "addition", "to", "that", ",", "the", "fact", "that", "fernando", "has", "made", "major", "contributions", "in", "both", "ir", "and", "nlp", "is", "in", "the", "very", "spirit", "of", "the", "award", "."])
+(contents, ["congratulations", "and", "we", "are", "looking", "forward", "to", "an", "inspiring", "keynote", "talk", "at", "ecir", "2018", "in", "grenoble", "!"])
+(contents, ["in", "2016", ",", "the", "award", "panel", "had", "the", "difficult", "task", "to", "decide", "between", "a", "range", "of", "candidates", "with", "outstanding", "research", "credentials", ",", "all", "of", "which", "lead", "an", "impressive", "research", "programme", "with", "a", "view", "to", "advance", "our", "understanding", "of", "ir", "and", "or", "nlp", "through", "experimentation", "."])
+(contents, ["in", "giving", "the", "award", "to", "jaime", "teevan", "affiliate", "associate", "professor", "at", "the", "university", "of", "washington", ",", "seattle", ",", "usa", "principal", "researcher", "at", "microsoft", "research", ",", "redmond", ",", "usa", "the", "award", "panel", "recognises", "jaimes", "technically", "strong", "and", "exceptionally", "creative", "contributions", "to", "the", "intersection", "of", "information", "retrieval", ",", "user", "experience", "and", "social", "media", "."])
+(contents, ["in", "particular", ",", "jaime", "has", "advanced", "our", "understanding", "of", "information", "retrieval", "through", "her", "contributions", "to", "design", ",", "implementation", "and", "careful", "evaluation", "of", "new", "retrieval", "algorithms", "and", "user", "experiences", "."])
+(contents, ["jaime", "will", "give", "a", "keynote", "at", "ecir", "2017.", "in", "2015", ",", "the", "award", "panel", "was", "highly", "impressed", "both", "by", "the", "quality", "and", "diversity", "of", "the", "field", "of", "candidates", "it", "faced", "a", "hard", "time", "narrowing", "down", "the", "nominations", "to", "a", "short", "list", "."])
+(contents, ["even", "more", "so", ",", "it", "turned", "out", "the", "panel", "experienced", "a", "genuine", "difficulty", "of", "deciding", "between", "the", "two", "candidates", "who", "best", "matched", "the", "award", "criterion", "``", "to", "have", "endeavoured", "to", "advance", "our", "understanding", "of", "ir", "and", "or", "nlp", "through", "experimentation", ".", "''"])
+(contents, ["as", "a", "consequence", ",", "and", "unique", "to", "2015", ",", "the", "panel", "decided", "to", "make", "two", "full", "awards", "."])
+(contents, ["in", "alphabetical", "order", "jordan", "boyd-graber", "assistant", "professor", ",", "computer", "science", "department", "university", "of", "colorado", ",", "usa", "the", "panel", "recognised", "jordans", "technically", "strong", "and", "creative", "work", "on", "probabilistic", "topic", "models", ",", "in", "particular", ",", "how", "his", "work", "has", "shown", "that", "the", "semantic", "coherence", "of", "these", "topics", "can", "be", "systematically", "assessed", ",", "how", "linguistic", "knowledge", "such", "as", "word", "senses", ",", "syntactic", "relations", "and", "inter-language", "relationships", "can", "be", "incorporated", "-", "and", "crucially", "-", "how", "user", "feedback", "can", "easily", "and", "iteratively", "be", "integrated", "into", "learned", "topic", "models", "to", "improve", "the", "semantic", "coherence", "of", "the", "topics", "."])
+(contents, ["the", "panel", "thought", "that", "jordan", "has", "shaped", "our", "understanding", "of", "nlp", "in", "new", "and", "important", "ways", "through", "experimental", "machine", "learning", "research", "."])
+(contents, ["jordan", "gave", "a", "keynote", "at", "ecir", "2016", "on", "interactive", "machine", "learning", "for", "understanding", "large", "document", "collections", "."])
+(contents, ["emine", "yilmaz", "lecturer", ",", "department", "of", "computer", "science", "university", "college", "london", ",", "uk", "the", "panel", "was", "impressed", "by", "the", "body", "of", "emines", "research", "on", "evaluation", "techniques", "to", "better", "match", "the", "realities", "of", "modern", "information", "systems", ",", "in", "particular", "her", "work", "on", "missing", "user", "judgments", ",", "her", "proposed", "new", "metrics", "that", "are", "more", "robust", "to", "missing", "data", "and", "her", "work", "on", "expected", "browsing", "utility", "as", "a", "new", "evaluation", "metric", "derived", "from", "interaction", "patterns", "of", "real", "web", "search", "sessions", "."])
+(contents, ["her", "recent", "work", "focused", "on", "devising", "and", "evaluating", "the", "quality", "of", "task", "based", "information", "retrieval", "systems", ",", "retrieval", "systems", "that", "can", "help", "the", "user", "complete", "the", "task", "that", "have", "led", "them", "issue", "a", "query", "to", "a", "search", "engine", ",", "as", "opposed", "to", "just", "retrieving", "a", "list", "of", "documents", "relevant", "to", "the", "query", "submitted", "."])
+(contents, ["the", "panel", "recognized", "that", "emines", "research", "has", "pushed", "the", "field", "of", "ir", "forward", "in", "these", "important", "aspects", "and", "that", "her", "work", "has", "had", "a", "high", "impact", "on", "academia", "and", "practice", "."])
+(contents, ["emine", "gave", "a", "keynote", "at", "ecir", "2016", "on", "a", "task-based", "perspective", "to", "information", "retrieval", "."])
+(contents, ["ryen", "white", "senior", "researcher", "at", "microsoft", "research", "redmond", ",", "usa", "the", "award", "panel", "recognises", "that", "ryen", "white", "has", "contributed", "in", "many", "layers", "to", "a", "better", "understanding", "of", "search", "interaction", ",", "eg", ",", "through", "novel", "and", "creative", "analyses", "of", "vital", "and", "as", "of", "yet", "unexplored", "aspects", "of", "searcher", "behavior", "closely", "coupled", "with", "the", "development", "of", "models", "and", "applications", "for", "improving", "the", "search", "experience", "."])
+(contents, ["the", "panel", "was", "highly", "impressed", "by", "ryens", "academic", "output", ",", "many", "as", "leading", "or", "sole", "author", ",", "using", "experimental", "methods", "of", "large-scale", "log", "analyses", ",", "user", "studies", "and", "surveys", "."])
+(contents, ["his", "sheer", "productivity", ",", "the", "take-up", "of", "his", "work", "in", "academia", "and", "a", "number", "of", "best", "paper", "awards", "at", "prestigious", "conferences", "including", "acm", "sigir", "(", "3x", ")", ",", "acm", "cikm", ",", "acm", "sigchi", "and", "in", "jasist", "speak", "for", "themselves", "."])
+(contents, ["it", "is", "also", "a", "hallmark", "of", "ryens", "professional", "activity", "that", "he", "continued", "to", "serve", "the", "academic", "community", "though", "reviewing", ",", "track", "chairing", "and", "pc", "co-chairing", "at", "top", "conferences", ",", "editorial", "board", "memberships", "and", "guest", "editing", "while", "being", "a", "researcher", "in", "industry", "."])
+(contents, ["ryen", "gave", "a", "keynote", "at", "ecir", "2015", "on", "mining", "and", "modelling", "online", "health", "search", "."])
+(contents, ["the", "slides", "of", "his", "lecture", "are", "available", "here", "eugene", "agichtein", "associate", "professor", "mathematics", "and", "computer", "science", "department", "emory", "university", ",", "atlanta", ",", "usa", "in", "making", "the", "bcs", "bcs", "irsg", "karen", "spärck-jones", "award", "for", "2013", ",", "the", "panel", "strongly", "recognizes", "that", "eugene", "agichtein", "has", "made", "several", "important", "contributions", "in", "search", "and", "large", "scale", "web", "text", "data", "mining", "with", "a", "focus", "on", "user", "interaction", "data", "."])
+(contents, ["eugenes", "work", "has", "included", "demonstrating", "how", "models", "of", "human", "information", "interactions", "can", "be", "inferred", "by", "leveraging", "computational", "techniques", "on", "what", "are", "large-scale", "but", "also", "noisy", "behaviour", "records", "."])
+(contents, ["his", "work", "has", "been", "very", "influential", "-", "the", "depth", "of", "which", "across", "several", "areas", "is", "impressive", "."])
+(contents, ["eugene", "has", "focused", "on", "understanding", "and", "modelling", "user", "interaction", "in", "web", "search", "and", "collaborative", "question", "answering", "."])
+(contents, ["for", "example", ",", "he", "has", "shown", "that", "click", "through", "and", "other", "forms", "of", "implicit", "feedback", "are", "useful", "for", "improving", "search", "results", "ranking", "when", "gathered", "across", "large", "numbers", "of", "users", "."])
+(contents, ["this", "is", "one", "area", "of", "contribution", "where", "his", "work", "is", "seen", "as", "particularly", "influential", "."])
+(contents, ["eugenes", "work", "includes", "mouse", "movements", "and", "prediction", "of", "responses", "to", "advertising", ",", "and", "has", "reached", "out", "to", "other", "domains", "too", "."])
+(contents, ["overall", ",", "eugene", "agichteins", "work", "is", "regarded", "as", "that", "of", "an", "excellent", "experimentalist", "that", "recognizes", "the", "critical", "linkages", "between", "information", "theory", "and", "experiment", "."])
+(contents, ["eugene", "gave", "a", "keynote", "speech", "at", "ecir", "2014.", "diane", "kelly", "associate", "professor", "university", "of", "north", "carolina", ",", "nc", ",", "usa", "in", "making", "the", "bcs", "bcs", "irsg", "karen", "spärck-jones", "award", "for", "2012", ",", "the", "panel", "strongly", "recognizes", "that", "diane", "has", "made", "important", "contributions", "to", "the", "analysis", "of", "information", "seeking", "behaviors", ",", "and", "to", "the", "development", "of", "new", "experimental", "methods", "and", "systems", "to", "support", "information", "seeking", "and", "analysis", "."])
+(contents, ["diane", "has", "made", "several", "other", "important", "contributions", "to", "user", "modeling", "using", "implicit", "indicators", "of", "relevance", ",", "the", "development", "and", "analysis", "of", "interfaces", "to", "elicit", "richer", "statements", "of", "interest", ",", "and", "new", "methodologies", "for", "designing", "and", "evaluating", "interactive", "retrieval", "systems", "."])
+(contents, ["her", "strong", "user-oriented", "work", "views", "users-as-people", "with", "cognitive", "tasks", "."])
+(contents, ["diane", "gave", "a", "keynote", "speech", "at", "ecir", "2013.", "the", "slides", "of", "her", "talk", "are", "available", "for", "download", "evgeniy", "gabrilovich", "senior", "research", "scientist", "and", "manager", "of", "the", "nlp", "&", "ir", "group", "of", "yahoo", "!"])
+(contents, ["research", ",", "california", ",", "u.s.", "evgeniy", "gave", "a", "keynote", "speech", "at", "ecir", "2011.", "the", "abstract", "of", "his", "talk", "and", "his", "bio", "is", "available", "."])
+(contents, ["the", "first", "recipient", "of", "the", "ksj", "award", "is", "mirella", "lapata", "reader", "(", "assoc", "prof", ")", "school", "of", "informatics", "university", "of", "edinburgh", "mirellas", "research", "has", "focused", "on", "various", "problems", "in", "nlp", "mostly", "with", "an", "emphasis", "on", "statistical", "methods", "and", "text", "generation", "applications", "."])
+(contents, ["she", "has", "worked", "on", "complex", "problems", "like", "word", "sense", "disambiguation", ",", "ambiguity", "resolution", ",", "semantic", "vector", "space", ",", "story", "generation", ",", "and", "many", "others", "."])
+(contents, ["the", "abstract", "of", "her", "talk", "at", "ecir", "2009", "and", "her", "bio", "is", "available", "for", "download", "."])
+(contents, ["list", "of", "previous", "panel", "members", "in", "alphabetical", "order", "nicholas", "belkin", ",", "rutgers", "university", "pia", "borlund", ",", "university", "of", "copenhagen", "ann", "copestake", ",", "university", "of", "cambridge", "susan", "dumais", ",", "microsoft", "research", "rob", "gaizauskas", ",", "sheffield", "university", "ayse", "goker", ",", "robert", "gordon", "university", "(", "chair", "2009-2013", ")", "katja", "hofmann", ",", "microsoft", "research", "cambridge", "joemon", "jose", ",", "university", "of", "glasgow", "udo", "kruschwitz", ",", "university", "of", "essex", "(", "chair", "2017", ")", "rada", "mihalcea", ",", "university", "of", "michigan", "marie-francine", "moens", ",", "katholieke", "universiteit", "leuven", "doug", "oard", ",", "university", "of", "maryland", "carol", "peters", ",", "cnr", "pisa", "stephen", "robertson", ",", "city", "university", "and", "university", "college", "london", "stefan", "rueger", ",", "the", "open", "university", ",", "uk", "(", "chair", "2014-2016", ")", "tomek", "strzalkowski", ",", "suny", "albany", "bonnie", "webber", ",", "university", "of", "edinburgh", "marti", "hearst", ",", "university", "of", "california", ",", "berkeley", "mark", "sanderson", ",", "rmit", "milad", "shokouhi", ",", "microsoft", "research", "copyright", "bcs", "2009", "legal", "and", "privacy", "notices", "bcs", "is", "a", "registered", "charity", "no", "292786", "page", "last", "modified", "jan", "09", ",", "2018"])
+
+================================================================================
+POS TAGGED TOKENS
+================================================================================
+(title, [("ksj", "NNS"), ("award", "NN")]
+(h, [("microsoft", "JJ"), ("bcs", "NN"), ("bcs", "NN"), ("irsg", "NN"), ("karen", "NNS"), ("spärck", "VBP"), ("jones", "NNS"), ("award", "IN"), ("an", "DT"), ("award", "NN"), ("to", "TO"), ("commemorate", "VB"), ("karen", "NNS"), ("spärck", "JJ"), ("jones", "NNS")]
+(h, [("recipient", "NN"), ("of", "IN"), ("the", "DT"), ("karen", "NNS"), ("spärck", "VBP"), ("jones", "NNS"), ("award", "RB"), ("2017", "CD")]
+(h, [("recipient", "NN"), ("of", "IN"), ("the", "DT"), ("karen", "NNS"), ("spärck", "VBP"), ("jones", "NNS"), ("award", "RB"), ("2016", "CD")]
+(h, [("recipients", "NNS"), ("of", "IN"), ("the", "DT"), ("karen", "NNS"), ("spärck", "VBP"), ("jones", "NNS"), ("award", "RB"), ("2015", "CD")]
+(h, [("recipient", "NN"), ("of", "IN"), ("the", "DT"), ("karen", "NNS"), ("spärck", "VBP"), ("jones", "NNS"), ("award", "RB"), ("2014", "CD")]
+(h, [("recipient", "NN"), ("of", "IN"), ("the", "DT"), ("2013", "CD"), ("award", "NN")]
+(h, [("recipient", "NN"), ("of", "IN"), ("the", "DT"), ("2012", "CD"), ("award", "NN")]
+(h, [("no", "DT"), ("award", "NN"), ("was", "VBD"), ("made", "VBN"), ("in", "IN"), ("2011", "CD")]
+(h, [("recipient", "NN"), ("of", "IN"), ("the", "DT"), ("2010", "CD"), ("award", "NN")]
+(h, [("recipient", "NN"), ("of", "IN"), ("the", "DT"), ("2009", "CD"), ("award", "NN")]
+(h, [("previous", "JJ"), ("panel", "NN"), ("members", "NNS")]
+(contents, [("information", "NN"), ("retrieval", "NN"), ("specialist", "NN"), ("group", "NN"), ("home", "NN"), ("committee", "NN"), ("join", "NN"), ("about", "IN"), ("contact", "NN"), ("bcs", "NN"), ("membership", "NN"), ("informer", "NN"), ("ecir", "NN"), ("ksj", "FW"), ("award", "JJ"), ("search", "NN"), ("industry", "NN"), ("awards", "NNS"), ("search", "VBP"), ("solutions", "NNS"), ("agm", "VBP"), ("committee", "NN"), ("meetings", "NNS"), ("groups", "NNS"), ("resources", "NNS"), ("tweets", "NNS"), ("by", "IN"), ("@", "NNP"), ("bcs_irsg", "NN"), ("irsg", "NN"), ("supported", "VBD"), ("events", "NNS"), ("past", "JJ"), ("events", "NNS"), ("informer", "NN"), ("read", "VBP"), ("about", "IN"), ("irsg", "JJ"), ("activity", "NN"), ("in", "IN"), ("the", "DT"), ("latest", "JJS"), ("edition", "NN"), ("of", "IN"), ("informer", "NN"), (".", ".")]
+(contents, [("how", "WRB"), ("to", "TO"), ("apply", "VB"), ("if", "IN"), ("you", "PRP"), ("are", "VBP"), ("intrested", "VBN"), ("in", "IN"), ("becoming", "VBG"), ("a", "DT"), ("it", "PRP"), ("professional", "JJ"), (".", ".")]
+(contents, [("join", "VB"), ("the", "DT"), ("bcs-irsg", "NN"), ("!", ".")]
+(contents, [("web", "NN"), ("badge", "NN"), ("if", "IN"), ("you", "PRP"), ("are", "VBP"), ("a", "DT"), ("member", "NN"), ("of", "IN"), ("the", "DT"), ("bcs", "NN"), ("irsg", "NN"), ("show", "VB"), ("your", "PRP$"), ("affiliation", "NN"), ("by", "IN"), ("displaying", "VBG"), ("our", "PRP$"), ("web", "NN"), ("badge", "NN"), ("on", "IN"), ("your", "PRP$"), ("page", "NN"), (".", ".")]
+(contents, [("click", "NN"), ("here", "RB"), ("for", "IN"), ("code", "NN"), (".", ".")]
+(contents, [("the", "DT"), ("british", "JJ"), ("computer", "NN"), ("society", "NN"), ("information", "NN"), ("retrieval", "NN"), ("specialist", "NN"), ("group", "NN"), ("(", "("), ("bcs", "IN"), ("irsg", "NN"), (")", ")"), ("in", "IN"), ("conjunction", "NN"), ("with", "IN"), ("the", "DT"), ("bcs", "NN"), ("created", "VBD"), ("an", "DT"), ("award", "NN"), ("in", "IN"), ("2008", "CD"), ("to", "TO"), ("commemorate", "VB"), ("the", "DT"), ("achievements", "NNS"), ("of", "IN"), ("karen", "NNS"), ("spärck", "JJ"), ("jones", "NNS"), (".", ".")]
+(contents, [("karen", "NN"), ("was", "VBD"), ("a", "DT"), ("professor", "NN"), ("emerita", "NN"), ("of", "IN"), ("computers", "NNS"), ("and", "CC"), ("information", "NN"), ("at", "IN"), ("the", "DT"), ("university", "NN"), ("of", "IN"), ("cambridge", "NN"), ("and", "CC"), ("one", "CD"), ("of", "IN"), ("the", "DT"), ("most", "RBS"), ("remarkable", "JJ"), ("women", "NNS"), ("in", "IN"), ("computer", "NN"), ("science", "NN"), (".", ".")]
+(contents, [("her", "PRP$"), ("contributions", "NNS"), ("to", "TO"), ("the", "DT"), ("fields", "NNS"), ("of", "IN"), ("information", "NN"), ("retrieval", "NN"), ("(", "("), ("ir", "NN"), (")", ")"), ("and", "CC"), ("natural", "JJ"), ("language", "NN"), ("processing", "NN"), ("(", "("), ("nlp", "NN"), (")", ")"), (",", ","), ("especially", "RB"), ("with", "IN"), ("regard", "NN"), ("to", "TO"), ("experimentation", "NN"), (",", ","), ("have", "VBP"), ("been", "VBN"), ("outstanding", "JJ"), ("and", "CC"), ("highly", "RB"), ("influential", "JJ"), (".", ".")]
+(contents, [("karens", "NNS"), ("achievements", "NNS"), ("resulted", "VBD"), ("in", "IN"), ("her", "PRP$"), ("receiving", "VBG"), ("a", "DT"), ("number", "NN"), ("of", "IN"), ("prestigious", "JJ"), ("accolades", "NNS"), ("such", "JJ"), ("as", "IN"), ("the", "DT"), ("bcs", "NN"), ("lovelace", "NN"), ("medal", "NN"), ("for", "IN"), ("her", "PRP$"), ("advancement", "NN"), ("in", "IN"), ("information", "NN"), ("systems", "NNS"), (",", ","), ("and", "CC"), ("the", "DT"), ("acm", "JJ"), ("salton", "NN"), ("award", "NN"), ("for", "IN"), ("her", "PRP$"), ("significant", "JJ"), (",", ","), ("sustained", "JJ"), ("and", "CC"), ("continuing", "VBG"), ("contributions", "NNS"), ("to", "TO"), ("research", "NN"), ("in", "IN"), ("information", "NN"), ("retrieval", "NN"), (".", ".")]
+(contents, [("the", "DT"), ("irsg", "NN"), ("is", "VBZ"), ("grateful", "JJ"), ("to", "TO"), ("microsoft", "VB"), ("research", "NN"), ("for", "IN"), ("their", "PRP$"), ("sponsorship", "NN"), ("of", "IN"), ("the", "DT"), ("karen", "JJ"), ("spärck-jones", "JJ"), ("award", "NN"), (".", ".")]
+(contents, [("sponsered", "VBN"), ("by", "IN"), ("we", "PRP"), ("are", "VBP"), ("pleased", "JJ"), ("to", "TO"), ("announce", "VB"), ("that", "IN"), ("the", "DT"), ("microsoft", "JJ"), ("bcs", "NN"), ("bcs", "NN"), ("irsg", "NN"), ("karen", "NNS"), ("spärck", "VBP"), ("jones", "NNS"), ("award", "RB"), ("2017", "CD"), ("is", "VBZ"), ("to", "TO"), ("be", "VB"), ("awarded", "VBN"), ("to", "TO"), ("fernando", "VB"), ("diaz", "JJ"), ("director", "NN"), ("of", "IN"), ("research", "NN"), ("at", "IN"), ("spotify", "PDT"), ("the", "DT"), ("panel", "NN"), ("of", "IN"), ("independent", "JJ"), ("experts", "NNS"), ("in", "IN"), ("information", "NN"), ("retrieval", "NN"), ("(", "("), ("ir", "NN"), (")", ")"), ("and", "CC"), ("natural", "JJ"), ("language", "NN"), ("processing", "NN"), ("(", "("), ("nlp", "JJ"), (")", ")"), ("was", "VBD"), ("particularly", "RB"), ("impressed", "VBN"), ("by", "IN"), ("his", "PRP$"), ("great", "JJ"), ("breadth", "NN"), ("and", "CC"), ("excellence", "NN"), ("of", "IN"), ("research", "NN"), (",", ","), ("his", "PRP$"), ("raising", "NN"), ("of", "IN"), ("important", "JJ"), ("issues", "NNS"), (",", ","), ("such", "JJ"), ("as", "IN"), ("ethical", "JJ"), ("issues", "NNS"), (",", ","), ("and", "CC"), ("his", "PRP$"), ("service", "NN"), ("to", "TO"), ("the", "DT"), ("community", "NN"), (".", ".")]
+(contents, [("in", "IN"), ("addition", "NN"), ("to", "TO"), ("that", "DT"), (",", ","), ("the", "DT"), ("fact", "NN"), ("that", "IN"), ("fernando", "NN"), ("has", "VBZ"), ("made", "VBN"), ("major", "JJ"), ("contributions", "NNS"), ("in", "IN"), ("both", "DT"), ("ir", "NN"), ("and", "CC"), ("nlp", "NN"), ("is", "VBZ"), ("in", "IN"), ("the", "DT"), ("very", "RB"), ("spirit", "NN"), ("of", "IN"), ("the", "DT"), ("award", "NN"), (".", ".")]
+(contents, [("congratulations", "NNS"), ("and", "CC"), ("we", "PRP"), ("are", "VBP"), ("looking", "VBG"), ("forward", "RB"), ("to", "TO"), ("an", "DT"), ("inspiring", "JJ"), ("keynote", "NN"), ("talk", "NN"), ("at", "IN"), ("ecir", "NN"), ("2018", "CD"), ("in", "IN"), ("grenoble", "JJ"), ("!", ".")]
+(contents, [("in", "IN"), ("2016", "CD"), (",", ","), ("the", "DT"), ("award", "NN"), ("panel", "NN"), ("had", "VBD"), ("the", "DT"), ("difficult", "JJ"), ("task", "NN"), ("to", "TO"), ("decide", "VB"), ("between", "IN"), ("a", "DT"), ("range", "NN"), ("of", "IN"), ("candidates", "NNS"), ("with", "IN"), ("outstanding", "JJ"), ("research", "NN"), ("credentials", "NNS"), (",", ","), ("all", "DT"), ("of", "IN"), ("which", "WDT"), ("lead", "VBP"), ("an", "DT"), ("impressive", "JJ"), ("research", "NN"), ("programme", "NN"), ("with", "IN"), ("a", "DT"), ("view", "NN"), ("to", "TO"), ("advance", "VB"), ("our", "PRP$"), ("understanding", "NN"), ("of", "IN"), ("ir", "NN"), ("and", "CC"), ("or", "CC"), ("nlp", "CC"), ("through", "IN"), ("experimentation", "NN"), (".", ".")]
+(contents, [("in", "IN"), ("giving", "VBG"), ("the", "DT"), ("award", "NN"), ("to", "TO"), ("jaime", "VB"), ("teevan", "JJ"), ("affiliate", "NN"), ("associate", "NN"), ("professor", "NN"), ("at", "IN"), ("the", "DT"), ("university", "NN"), ("of", "IN"), ("washington", "NN"), (",", ","), ("seattle", "NN"), (",", ","), ("usa", "JJ"), ("principal", "JJ"), ("researcher", "NN"), ("at", "IN"), ("microsoft", "JJ"), ("research", "NN"), (",", ","), ("redmond", "NN"), (",", ","), ("usa", "IN"), ("the", "DT"), ("award", "NN"), ("panel", "NN"), ("recognises", "VBZ"), ("jaimes", "NNS"), ("technically", "RB"), ("strong", "JJ"), ("and", "CC"), ("exceptionally", "RB"), ("creative", "JJ"), ("contributions", "NNS"), ("to", "TO"), ("the", "DT"), ("intersection", "NN"), ("of", "IN"), ("information", "NN"), ("retrieval", "NN"), (",", ","), ("user", "JJ"), ("experience", "NN"), ("and", "CC"), ("social", "JJ"), ("media", "NNS"), (".", ".")]
+(contents, [("in", "IN"), ("particular", "JJ"), (",", ","), ("jaime", "NN"), ("has", "VBZ"), ("advanced", "VBN"), ("our", "PRP$"), ("understanding", "NN"), ("of", "IN"), ("information", "NN"), ("retrieval", "NN"), ("through", "IN"), ("her", "PRP$"), ("contributions", "NNS"), ("to", "TO"), ("design", "VB"), (",", ","), ("implementation", "NN"), ("and", "CC"), ("careful", "JJ"), ("evaluation", "NN"), ("of", "IN"), ("new", "JJ"), ("retrieval", "NN"), ("algorithms", "NN"), ("and", "CC"), ("user", "JJ"), ("experiences", "NNS"), (".", ".")]
+(contents, [("jaime", "NN"), ("will", "MD"), ("give", "VB"), ("a", "DT"), ("keynote", "NN"), ("at", "IN"), ("ecir", "$"), ("2017.", "CD"), ("in", "IN"), ("2015", "CD"), (",", ","), ("the", "DT"), ("award", "NN"), ("panel", "NN"), ("was", "VBD"), ("highly", "RB"), ("impressed", "JJ"), ("both", "DT"), ("by", "IN"), ("the", "DT"), ("quality", "NN"), ("and", "CC"), ("diversity", "NN"), ("of", "IN"), ("the", "DT"), ("field", "NN"), ("of", "IN"), ("candidates", "NNS"), ("it", "PRP"), ("faced", "VBD"), ("a", "DT"), ("hard", "JJ"), ("time", "NN"), ("narrowing", "VBG"), ("down", "RP"), ("the", "DT"), ("nominations", "NNS"), ("to", "TO"), ("a", "DT"), ("short", "JJ"), ("list", "NN"), (".", ".")]
+(contents, [("even", "RB"), ("more", "RBR"), ("so", "RB"), (",", ","), ("it", "PRP"), ("turned", "VBD"), ("out", "RP"), ("the", "DT"), ("panel", "NN"), ("experienced", "VBD"), ("a", "DT"), ("genuine", "JJ"), ("difficulty", "NN"), ("of", "IN"), ("deciding", "VBG"), ("between", "IN"), ("the", "DT"), ("two", "CD"), ("candidates", "NNS"), ("who", "WP"), ("best", "VBP"), ("matched", "VBD"), ("the", "DT"), ("award", "NN"), ("criterion", "NN"), ("``", "``"), ("to", "TO"), ("have", "VB"), ("endeavoured", "VBN"), ("to", "TO"), ("advance", "VB"), ("our", "PRP$"), ("understanding", "NN"), ("of", "IN"), ("ir", "NN"), ("and", "CC"), ("or", "CC"), ("nlp", "CC"), ("through", "IN"), ("experimentation", "NN"), (".", "."), ("''", "''")]
+(contents, [("as", "IN"), ("a", "DT"), ("consequence", "NN"), (",", ","), ("and", "CC"), ("unique", "NN"), ("to", "TO"), ("2015", "CD"), (",", ","), ("the", "DT"), ("panel", "NN"), ("decided", "VBD"), ("to", "TO"), ("make", "VB"), ("two", "CD"), ("full", "JJ"), ("awards", "NNS"), (".", ".")]
+(contents, [("in", "IN"), ("alphabetical", "JJ"), ("order", "NN"), ("jordan", "NN"), ("boyd-graber", "NN"), ("assistant", "NN"), ("professor", "NN"), (",", ","), ("computer", "NN"), ("science", "NN"), ("department", "NN"), ("university", "NN"), ("of", "IN"), ("colorado", "NN"), (",", ","), ("usa", "IN"), ("the", "DT"), ("panel", "NN"), ("recognised", "VBD"), ("jordans", "NNS"), ("technically", "RB"), ("strong", "JJ"), ("and", "CC"), ("creative", "JJ"), ("work", "NN"), ("on", "IN"), ("probabilistic", "JJ"), ("topic", "NN"), ("models", "NNS"), (",", ","), ("in", "IN"), ("particular", "JJ"), (",", ","), ("how", "WRB"), ("his", "PRP$"), ("work", "NN"), ("has", "VBZ"), ("shown", "VBN"), ("that", "IN"), ("the", "DT"), ("semantic", "JJ"), ("coherence", "NN"), ("of", "IN"), ("these", "DT"), ("topics", "NNS"), ("can", "MD"), ("be", "VB"), ("systematically", "RB"), ("assessed", "VBN"), (",", ","), ("how", "WRB"), ("linguistic", "JJ"), ("knowledge", "NN"), ("such", "JJ"), ("as", "IN"), ("word", "NN"), ("senses", "VBZ"), (",", ","), ("syntactic", "JJ"), ("relations", "NNS"), ("and", "CC"), ("inter-language", "JJ"), ("relationships", "NNS"), ("can", "MD"), ("be", "VB"), ("incorporated", "VBN"), ("-", ":"), ("and", "CC"), ("crucially", "RB"), ("-", ":"), ("how", "WRB"), ("user", "JJ"), ("feedback", "NN"), ("can", "MD"), ("easily", "RB"), ("and", "CC"), ("iteratively", "RB"), ("be", "VB"), ("integrated", "VBN"), ("into", "IN"), ("learned", "JJ"), ("topic", "NN"), ("models", "NNS"), ("to", "TO"), ("improve", "VB"), ("the", "DT"), ("semantic", "JJ"), ("coherence", "NN"), ("of", "IN"), ("the", "DT"), ("topics", "NNS"), (".", ".")]
+(contents, [("the", "DT"), ("panel", "NN"), ("thought", "VBD"), ("that", "IN"), ("jordan", "NN"), ("has", "VBZ"), ("shaped", "VBN"), ("our", "PRP$"), ("understanding", "NN"), ("of", "IN"), ("nlp", "NN"), ("in", "IN"), ("new", "JJ"), ("and", "CC"), ("important", "JJ"), ("ways", "NNS"), ("through", "IN"), ("experimental", "JJ"), ("machine", "NN"), ("learning", "VBG"), ("research", "NN"), (".", ".")]
+(contents, [("jordan", "NN"), ("gave", "VBD"), ("a", "DT"), ("keynote", "NN"), ("at", "IN"), ("ecir", "JJ"), ("2016", "CD"), ("on", "IN"), ("interactive", "JJ"), ("machine", "NN"), ("learning", "VBG"), ("for", "IN"), ("understanding", "VBG"), ("large", "JJ"), ("document", "JJ"), ("collections", "NNS"), (".", ".")]
+(contents, [("emine", "NN"), ("yilmaz", "NN"), ("lecturer", "NN"), (",", ","), ("department", "NN"), ("of", "IN"), ("computer", "NN"), ("science", "NN"), ("university", "NN"), ("college", "NN"), ("london", "NN"), (",", ","), ("uk", "IN"), ("the", "DT"), ("panel", "NN"), ("was", "VBD"), ("impressed", "VBN"), ("by", "IN"), ("the", "DT"), ("body", "NN"), ("of", "IN"), ("emines", "NNS"), ("research", "NN"), ("on", "IN"), ("evaluation", "NN"), ("techniques", "NNS"), ("to", "TO"), ("better", "RBR"), ("match", "VB"), ("the", "DT"), ("realities", "NNS"), ("of", "IN"), ("modern", "JJ"), ("information", "NN"), ("systems", "NNS"), (",", ","), ("in", "IN"), ("particular", "JJ"), ("her", "PRP$"), ("work", "NN"), ("on", "IN"), ("missing", "VBG"), ("user", "NN"), ("judgments", "NNS"), (",", ","), ("her", "PRP$"), ("proposed", "VBN"), ("new", "JJ"), ("metrics", "NNS"), ("that", "WDT"), ("are", "VBP"), ("more", "JJR"), ("robust", "JJ"), ("to", "TO"), ("missing", "VBG"), ("data", "NNS"), ("and", "CC"), ("her", "PRP$"), ("work", "NN"), ("on", "IN"), ("expected", "VBN"), ("browsing", "VBG"), ("utility", "NN"), ("as", "IN"), ("a", "DT"), ("new", "JJ"), ("evaluation", "NN"), ("metric", "JJ"), ("derived", "VBN"), ("from", "IN"), ("interaction", "NN"), ("patterns", "NNS"), ("of", "IN"), ("real", "JJ"), ("web", "JJ"), ("search", "NN"), ("sessions", "NNS"), (".", ".")]
+(contents, [("her", "PRP$"), ("recent", "JJ"), ("work", "NN"), ("focused", "VBD"), ("on", "IN"), ("devising", "NN"), ("and", "CC"), ("evaluating", "VBG"), ("the", "DT"), ("quality", "NN"), ("of", "IN"), ("task", "NN"), ("based", "VBN"), ("information", "NN"), ("retrieval", "NN"), ("systems", "NNS"), (",", ","), ("retrieval", "JJ"), ("systems", "NNS"), ("that", "WDT"), ("can", "MD"), ("help", "VB"), ("the", "DT"), ("user", "NN"), ("complete", "VB"), ("the", "DT"), ("task", "NN"), ("that", "WDT"), ("have", "VBP"), ("led", "VBN"), ("them", "PRP"), ("issue", "VB"), ("a", "DT"), ("query", "NN"), ("to", "TO"), ("a", "DT"), ("search", "NN"), ("engine", "NN"), (",", ","), ("as", "IN"), ("opposed", "VBN"), ("to", "TO"), ("just", "RB"), ("retrieving", "VBG"), ("a", "DT"), ("list", "NN"), ("of", "IN"), ("documents", "NNS"), ("relevant", "JJ"), ("to", "TO"), ("the", "DT"), ("query", "NN"), ("submitted", "VBN"), (".", ".")]
+(contents, [("the", "DT"), ("panel", "NN"), ("recognized", "VBD"), ("that", "IN"), ("emines", "NNS"), ("research", "NN"), ("has", "VBZ"), ("pushed", "VBN"), ("the", "DT"), ("field", "NN"), ("of", "IN"), ("ir", "JJ"), ("forward", "NN"), ("in", "IN"), ("these", "DT"), ("important", "JJ"), ("aspects", "NNS"), ("and", "CC"), ("that", "IN"), ("her", "PRP$"), ("work", "NN"), ("has", "VBZ"), ("had", "VBN"), ("a", "DT"), ("high", "JJ"), ("impact", "NN"), ("on", "IN"), ("academia", "NN"), ("and", "CC"), ("practice", "NN"), (".", ".")]
+(contents, [("emine", "NN"), ("gave", "VBD"), ("a", "DT"), ("keynote", "NN"), ("at", "IN"), ("ecir", "JJ"), ("2016", "CD"), ("on", "IN"), ("a", "DT"), ("task-based", "JJ"), ("perspective", "NN"), ("to", "TO"), ("information", "NN"), ("retrieval", "NN"), (".", ".")]
+(contents, [("ryen", "JJ"), ("white", "JJ"), ("senior", "JJ"), ("researcher", "NN"), ("at", "IN"), ("microsoft", "JJ"), ("research", "NN"), ("redmond", "NN"), (",", ","), ("usa", "IN"), ("the", "DT"), ("award", "NN"), ("panel", "NN"), ("recognises", "VBZ"), ("that", "IN"), ("ryen", "JJ"), ("white", "JJ"), ("has", "VBZ"), ("contributed", "VBN"), ("in", "IN"), ("many", "JJ"), ("layers", "NNS"), ("to", "TO"), ("a", "DT"), ("better", "JJR"), ("understanding", "NN"), ("of", "IN"), ("search", "NN"), ("interaction", "NN"), (",", ","), ("eg", "NN"), (",", ","), ("through", "IN"), ("novel", "NN"), ("and", "CC"), ("creative", "JJ"), ("analyses", "NNS"), ("of", "IN"), ("vital", "JJ"), ("and", "CC"), ("as", "IN"), ("of", "IN"), ("yet", "RB"), ("unexplored", "JJ"), ("aspects", "NNS"), ("of", "IN"), ("searcher", "NN"), ("behavior", "NN"), ("closely", "RB"), ("coupled", "VBN"), ("with", "IN"), ("the", "DT"), ("development", "NN"), ("of", "IN"), ("models", "NNS"), ("and", "CC"), ("applications", "NNS"), ("for", "IN"), ("improving", "VBG"), ("the", "DT"), ("search", "NN"), ("experience", "NN"), (".", ".")]
+(contents, [("the", "DT"), ("panel", "NN"), ("was", "VBD"), ("highly", "RB"), ("impressed", "VBN"), ("by", "IN"), ("ryens", "NNS"), ("academic", "JJ"), ("output", "NN"), (",", ","), ("many", "JJ"), ("as", "IN"), ("leading", "VBG"), ("or", "CC"), ("sole", "JJ"), ("author", "NN"), (",", ","), ("using", "VBG"), ("experimental", "JJ"), ("methods", "NNS"), ("of", "IN"), ("large-scale", "JJ"), ("log", "NN"), ("analyses", "NNS"), (",", ","), ("user", "JJ"), ("studies", "NNS"), ("and", "CC"), ("surveys", "NNS"), (".", ".")]
+(contents, [("his", "PRP$"), ("sheer", "NN"), ("productivity", "NN"), (",", ","), ("the", "DT"), ("take-up", "NN"), ("of", "IN"), ("his", "PRP$"), ("work", "NN"), ("in", "IN"), ("academia", "NN"), ("and", "CC"), ("a", "DT"), ("number", "NN"), ("of", "IN"), ("best", "JJS"), ("paper", "NN"), ("awards", "NNS"), ("at", "IN"), ("prestigious", "JJ"), ("conferences", "NNS"), ("including", "VBG"), ("acm", "NN"), ("sigir", "NN"), ("(", "("), ("3x", "CD"), (")", ")"), (",", ","), ("acm", "JJ"), ("cikm", "NN"), (",", ","), ("acm", "JJ"), ("sigchi", "NN"), ("and", "CC"), ("in", "IN"), ("jasist", "NN"), ("speak", "NN"), ("for", "IN"), ("themselves", "PRP"), (".", ".")]
+(contents, [("it", "PRP"), ("is", "VBZ"), ("also", "RB"), ("a", "DT"), ("hallmark", "NN"), ("of", "IN"), ("ryens", "NNS"), ("professional", "JJ"), ("activity", "NN"), ("that", "IN"), ("he", "PRP"), ("continued", "VBD"), ("to", "TO"), ("serve", "VB"), ("the", "DT"), ("academic", "JJ"), ("community", "NN"), ("though", "IN"), ("reviewing", "NN"), (",", ","), ("track", "NN"), ("chairing", "NN"), ("and", "CC"), ("pc", "NN"), ("co-chairing", "NN"), ("at", "IN"), ("top", "JJ"), ("conferences", "NNS"), (",", ","), ("editorial", "JJ"), ("board", "NN"), ("memberships", "NNS"), ("and", "CC"), ("guest", "JJS"), ("editing", "VBG"), ("while", "IN"), ("being", "VBG"), ("a", "DT"), ("researcher", "NN"), ("in", "IN"), ("industry", "NN"), (".", ".")]
+(contents, [("ryen", "NNS"), ("gave", "VBD"), ("a", "DT"), ("keynote", "NN"), ("at", "IN"), ("ecir", "JJ"), ("2015", "CD"), ("on", "IN"), ("mining", "NN"), ("and", "CC"), ("modelling", "VBG"), ("online", "JJ"), ("health", "NN"), ("search", "NN"), (".", ".")]
+(contents, [("the", "DT"), ("slides", "NNS"), ("of", "IN"), ("his", "PRP$"), ("lecture", "NN"), ("are", "VBP"), ("available", "JJ"), ("here", "RB"), ("eugene", "VBP"), ("agichtein", "JJ"), ("associate", "NN"), ("professor", "NN"), ("mathematics", "NNS"), ("and", "CC"), ("computer", "NN"), ("science", "NN"), ("department", "NN"), ("emory", "NN"), ("university", "NN"), (",", ","), ("atlanta", "NN"), (",", ","), ("usa", "JJ"), ("in", "IN"), ("making", "VBG"), ("the", "DT"), ("bcs", "NN"), ("bcs", "NN"), ("irsg", "JJ"), ("karen", "NNS"), ("spärck-jones", "NNS"), ("award", "NN"), ("for", "IN"), ("2013", "CD"), (",", ","), ("the", "DT"), ("panel", "NN"), ("strongly", "RB"), ("recognizes", "VBZ"), ("that", "IN"), ("eugene", "NN"), ("agichtein", "NN"), ("has", "VBZ"), ("made", "VBN"), ("several", "JJ"), ("important", "JJ"), ("contributions", "NNS"), ("in", "IN"), ("search", "NN"), ("and", "CC"), ("large", "JJ"), ("scale", "NN"), ("web", "NN"), ("text", "NN"), ("data", "NNS"), ("mining", "NN"), ("with", "IN"), ("a", "DT"), ("focus", "NN"), ("on", "IN"), ("user", "JJ"), ("interaction", "NN"), ("data", "NNS"), (".", ".")]
+(contents, [("eugenes", "NNS"), ("work", "NN"), ("has", "VBZ"), ("included", "VBN"), ("demonstrating", "VBG"), ("how", "WRB"), ("models", "NNS"), ("of", "IN"), ("human", "JJ"), ("information", "NN"), ("interactions", "NNS"), ("can", "MD"), ("be", "VB"), ("inferred", "VBN"), ("by", "IN"), ("leveraging", "VBG"), ("computational", "JJ"), ("techniques", "NNS"), ("on", "IN"), ("what", "WDT"), ("are", "VBP"), ("large-scale", "JJ"), ("but", "CC"), ("also", "RB"), ("noisy", "RB"), ("behaviour", "JJ"), ("records", "NNS"), (".", ".")]
+(contents, [("his", "PRP$"), ("work", "NN"), ("has", "VBZ"), ("been", "VBN"), ("very", "RB"), ("influential", "JJ"), ("-", ":"), ("the", "DT"), ("depth", "NN"), ("of", "IN"), ("which", "WDT"), ("across", "IN"), ("several", "JJ"), ("areas", "NNS"), ("is", "VBZ"), ("impressive", "JJ"), (".", ".")]
+(contents, [("eugene", "NN"), ("has", "VBZ"), ("focused", "VBN"), ("on", "IN"), ("understanding", "NN"), ("and", "CC"), ("modelling", "VBG"), ("user", "JJ"), ("interaction", "NN"), ("in", "IN"), ("web", "JJ"), ("search", "NN"), ("and", "CC"), ("collaborative", "JJ"), ("question", "NN"), ("answering", "NN"), (".", ".")]
+(contents, [("for", "IN"), ("example", "NN"), (",", ","), ("he", "PRP"), ("has", "VBZ"), ("shown", "VBN"), ("that", "IN"), ("click", "NN"), ("through", "IN"), ("and", "CC"), ("other", "JJ"), ("forms", "NNS"), ("of", "IN"), ("implicit", "JJ"), ("feedback", "NN"), ("are", "VBP"), ("useful", "JJ"), ("for", "IN"), ("improving", "VBG"), ("search", "NN"), ("results", "NNS"), ("ranking", "VBG"), ("when", "WRB"), ("gathered", "VBN"), ("across", "IN"), ("large", "JJ"), ("numbers", "NNS"), ("of", "IN"), ("users", "NNS"), (".", ".")]
+(contents, [("this", "DT"), ("is", "VBZ"), ("one", "CD"), ("area", "NN"), ("of", "IN"), ("contribution", "NN"), ("where", "WRB"), ("his", "PRP$"), ("work", "NN"), ("is", "VBZ"), ("seen", "VBN"), ("as", "IN"), ("particularly", "RB"), ("influential", "JJ"), (".", ".")]
+(contents, [("eugenes", "NNS"), ("work", "WDT"), ("includes", "VBZ"), ("mouse", "NN"), ("movements", "NNS"), ("and", "CC"), ("prediction", "NN"), ("of", "IN"), ("responses", "NNS"), ("to", "TO"), ("advertising", "NN"), (",", ","), ("and", "CC"), ("has", "VBZ"), ("reached", "VBN"), ("out", "RP"), ("to", "TO"), ("other", "JJ"), ("domains", "NNS"), ("too", "RB"), (".", ".")]
+(contents, [("overall", "JJ"), (",", ","), ("eugene", "JJ"), ("agichteins", "NNS"), ("work", "NN"), ("is", "VBZ"), ("regarded", "VBN"), ("as", "IN"), ("that", "DT"), ("of", "IN"), ("an", "DT"), ("excellent", "JJ"), ("experimentalist", "NN"), ("that", "WDT"), ("recognizes", "VBZ"), ("the", "DT"), ("critical", "JJ"), ("linkages", "NNS"), ("between", "IN"), ("information", "NN"), ("theory", "NN"), ("and", "CC"), ("experiment", "NN"), (".", ".")]
+(contents, [("eugene", "NN"), ("gave", "VBD"), ("a", "DT"), ("keynote", "NN"), ("speech", "NN"), ("at", "IN"), ("ecir", "$"), ("2014.", "CD"), ("diane", "NN"), ("kelly", "RB"), ("associate", "JJ"), ("professor", "NN"), ("university", "NN"), ("of", "IN"), ("north", "JJ"), ("carolina", "NNS"), (",", ","), ("nc", "RB"), (",", ","), ("usa", "JJ"), ("in", "IN"), ("making", "VBG"), ("the", "DT"), ("bcs", "NN"), ("bcs", "NN"), ("irsg", "JJ"), ("karen", "NNS"), ("spärck-jones", "NNS"), ("award", "NN"), ("for", "IN"), ("2012", "CD"), (",", ","), ("the", "DT"), ("panel", "NN"), ("strongly", "RB"), ("recognizes", "VBZ"), ("that", "IN"), ("diane", "NN"), ("has", "VBZ"), ("made", "VBN"), ("important", "JJ"), ("contributions", "NNS"), ("to", "TO"), ("the", "DT"), ("analysis", "NN"), ("of", "IN"), ("information", "NN"), ("seeking", "VBG"), ("behaviors", "NNS"), (",", ","), ("and", "CC"), ("to", "TO"), ("the", "DT"), ("development", "NN"), ("of", "IN"), ("new", "JJ"), ("experimental", "JJ"), ("methods", "NNS"), ("and", "CC"), ("systems", "NNS"), ("to", "TO"), ("support", "VB"), ("information", "NN"), ("seeking", "VBG"), ("and", "CC"), ("analysis", "NN"), (".", ".")]
+(contents, [("diane", "NN"), ("has", "VBZ"), ("made", "VBN"), ("several", "JJ"), ("other", "JJ"), ("important", "JJ"), ("contributions", "NNS"), ("to", "TO"), ("user", "VB"), ("modeling", "VBG"), ("using", "VBG"), ("implicit", "JJ"), ("indicators", "NNS"), ("of", "IN"), ("relevance", "NN"), (",", ","), ("the", "DT"), ("development", "NN"), ("and", "CC"), ("analysis", "NN"), ("of", "IN"), ("interfaces", "NNS"), ("to", "TO"), ("elicit", "VB"), ("richer", "JJR"), ("statements", "NNS"), ("of", "IN"), ("interest", "NN"), (",", ","), ("and", "CC"), ("new", "JJ"), ("methodologies", "NNS"), ("for", "IN"), ("designing", "VBG"), ("and", "CC"), ("evaluating", "VBG"), ("interactive", "JJ"), ("retrieval", "NN"), ("systems", "NNS"), (".", ".")]
+(contents, [("her", "PRP$"), ("strong", "JJ"), ("user-oriented", "JJ"), ("work", "NN"), ("views", "NNS"), ("users-as-people", "JJ"), ("with", "IN"), ("cognitive", "JJ"), ("tasks", "NNS"), (".", ".")]
+(contents, [("diane", "NN"), ("gave", "VBD"), ("a", "DT"), ("keynote", "NN"), ("speech", "NN"), ("at", "IN"), ("ecir", "$"), ("2013.", "CD"), ("the", "DT"), ("slides", "NNS"), ("of", "IN"), ("her", "PRP$"), ("talk", "NN"), ("are", "VBP"), ("available", "JJ"), ("for", "IN"), ("download", "NN"), ("evgeniy", "NN"), ("gabrilovich", "JJ"), ("senior", "JJ"), ("research", "NN"), ("scientist", "NN"), ("and", "CC"), ("manager", "NN"), ("of", "IN"), ("the", "DT"), ("nlp", "NN"), ("&", "CC"), ("ir", "NN"), ("group", "NN"), ("of", "IN"), ("yahoo", "NN"), ("!", ".")]
+(contents, [("research", "NN"), (",", ","), ("california", "NN"), (",", ","), ("u.s.", "JJ"), ("evgeniy", "NN"), ("gave", "VBD"), ("a", "DT"), ("keynote", "NN"), ("speech", "NN"), ("at", "IN"), ("ecir", "$"), ("2011.", "CD"), ("the", "DT"), ("abstract", "NN"), ("of", "IN"), ("his", "PRP$"), ("talk", "NN"), ("and", "CC"), ("his", "PRP$"), ("bio", "NN"), ("is", "VBZ"), ("available", "JJ"), (".", ".")]
+(contents, [("the", "DT"), ("first", "JJ"), ("recipient", "NN"), ("of", "IN"), ("the", "DT"), ("ksj", "NN"), ("award", "NN"), ("is", "VBZ"), ("mirella", "JJ"), ("lapata", "NNS"), ("reader", "NN"), ("(", "("), ("assoc", "JJ"), ("prof", "NN"), (")", ")"), ("school", "NN"), ("of", "IN"), ("informatics", "NNS"), ("university", "NN"), ("of", "IN"), ("edinburgh", "JJ"), ("mirellas", "NNS"), ("research", "NN"), ("has", "VBZ"), ("focused", "VBN"), ("on", "IN"), ("various", "JJ"), ("problems", "NNS"), ("in", "IN"), ("nlp", "DT"), ("mostly", "RB"), ("with", "IN"), ("an", "DT"), ("emphasis", "NN"), ("on", "IN"), ("statistical", "JJ"), ("methods", "NNS"), ("and", "CC"), ("text", "JJ"), ("generation", "NN"), ("applications", "NNS"), (".", ".")]
+(contents, [("she", "PRP"), ("has", "VBZ"), ("worked", "VBN"), ("on", "IN"), ("complex", "JJ"), ("problems", "NNS"), ("like", "IN"), ("word", "NN"), ("sense", "NN"), ("disambiguation", "NN"), (",", ","), ("ambiguity", "NN"), ("resolution", "NN"), (",", ","), ("semantic", "JJ"), ("vector", "NN"), ("space", "NN"), (",", ","), ("story", "NN"), ("generation", "NN"), (",", ","), ("and", "CC"), ("many", "JJ"), ("others", "NNS"), (".", ".")]
+(contents, [("the", "DT"), ("abstract", "NN"), ("of", "IN"), ("her", "PRP$"), ("talk", "NN"), ("at", "IN"), ("ecir", "NN"), ("2009", "CD"), ("and", "CC"), ("her", "PRP$"), ("bio", "NN"), ("is", "VBZ"), ("available", "JJ"), ("for", "IN"), ("download", "NN"), (".", ".")]
+(contents, [("list", "NN"), ("of", "IN"), ("previous", "JJ"), ("panel", "NN"), ("members", "NNS"), ("in", "IN"), ("alphabetical", "JJ"), ("order", "NN"), ("nicholas", "NNS"), ("belkin", "NN"), (",", ","), ("rutgers", "NNS"), ("university", "VBP"), ("pia", "NN"), ("borlund", "NN"), (",", ","), ("university", "NN"), ("of", "IN"), ("copenhagen", "NN"), ("ann", "NNS"), ("copestake", "VBP"), (",", ","), ("university", "NN"), ("of", "IN"), ("cambridge", "NN"), ("susan", "JJ"), ("dumais", "NN"), (",", ","), ("microsoft", "JJ"), ("research", "NN"), ("rob", "NN"), ("gaizauskas", "NN"), (",", ","), ("sheffield", "VBP"), ("university", "NN"), ("ayse", "NN"), ("goker", "NN"), (",", ","), ("robert", "JJ"), ("gordon", "NN"), ("university", "NN"), ("(", "("), ("chair", "JJ"), ("2009-2013", "CD"), (")", ")"), ("katja", "NN"), ("hofmann", "NN"), (",", ","), ("microsoft", "JJ"), ("research", "NN"), ("cambridge", "NN"), ("joemon", "NN"), ("jose", "NN"), (",", ","), ("university", "NN"), ("of", "IN"), ("glasgow", "NN"), ("udo", "JJ"), ("kruschwitz", "NN"), (",", ","), ("university", "NN"), ("of", "IN"), ("essex", "NN"), ("(", "("), ("chair", "JJ"), ("2017", "CD"), (")", ")"), ("rada", "NN"), ("mihalcea", "NN"), (",", ","), ("university", "NN"), ("of", "IN"), ("michigan", "JJ"), ("marie-francine", "JJ"), ("moens", "NNS"), (",", ","), ("katholieke", "FW"), ("universiteit", "JJ"), ("leuven", "RB"), ("doug", "JJ"), ("oard", "NN"), (",", ","), ("university", "NN"), ("of", "IN"), ("maryland", "NN"), ("carol", "NN"), ("peters", "NNS"), (",", ","), ("cnr", "NN"), ("pisa", "NN"), ("stephen", "NN"), ("robertson", "NN"), (",", ","), ("city", "NN"), ("university", "NN"), ("and", "CC"), ("university", "NN"), ("college", "NN"), ("london", "NN"), ("stefan", "NN"), ("rueger", "NN"), (",", ","), ("the", "DT"), ("open", "JJ"), ("university", "NN"), (",", ","), ("uk", "JJ"), ("(", "("), ("chair", "JJ"), ("2014-2016", "CD"), (")", ")"), ("tomek", "NN"), ("strzalkowski", "NN"), (",", ","), ("suny", "JJ"), ("albany", "NN"), ("bonnie", "NN"), ("webber", "NN"), (",", ","), ("university", "NN"), ("of", "IN"), ("edinburgh", "JJ"), ("marti", "NN"), ("hearst", "NN"), (",", ","), ("university", "NN"), ("of", "IN"), ("california", "NN"), (",", ","), ("berkeley", "NN"), ("mark", "NN"), ("sanderson", "NN"), (",", ","), ("rmit", "NN"), ("milad", "NN"), ("shokouhi", "NN"), (",", ","), ("microsoft", "JJ"), ("research", "NN"), ("copyright", "NN"), ("bcs", "NN"), ("2009", "CD"), ("legal", "JJ"), ("and", "CC"), ("privacy", "NN"), ("notices", "NNS"), ("bcs", "NN"), ("is", "VBZ"), ("a", "DT"), ("registered", "JJ"), ("charity", "NN"), ("no", "DT"), ("292786", "CD"), ("page", "NN"), ("last", "JJ"), ("modified", "VBD"), ("jan", "JJ"), ("09", "CD"), (",", ","), ("2018", "CD")]
+
+================================================================================
+KEYWORDS AND PHRASES
+================================================================================
+microsoft
+irsg
+karen
+spärck
+jones
+recipient
+make
+panel
+member
+information
+retrieval
+ecir
+search
+computer
+professor
+university
+contribution
+system
+research
+important
+keynote
+understanding
+give
+user
+work
+model
+interaction
+analysis
+eugene
+ksj award
+previous panel member
+karen spärck jones
+natural language processing
+information retrieval
+award panel
+privacy notice bcs
+rmit milad shokouhi
+
+================================================================================
+FINALIZATION
+================================================================================
+analysis
+award panel
+computer
+contribution
+ecir
+eugene
+give
+important
+information
+information retrieval
+interaction
+irsg
+jones
+karen
+karen spärck jones
+keynote
+ksj award
+make
+member
+microsoft
+model
+natural language processing
+panel
+previous panel member
+privacy notice bcs
+professor
+recipient
+research
+retrieval
+rmit milad shokouhi
+search
+spärck
+system
+understanding
+university
+user
+work
+

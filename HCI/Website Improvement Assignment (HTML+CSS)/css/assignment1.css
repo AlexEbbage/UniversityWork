@@ -1,0 +1,192 @@
+html{
+	font-size: 12px;
+	font-family: arial;
+}
+
+/*Container for whole page to keep it centered*/
+.Center_Container{
+	width: 800px;
+    margin: 0px auto;
+}
+
+/*Banner for top, consiting of university picture and logo*/
+.Picture_Banner{
+	position:relative;
+	top: 0;
+	left: 0;
+}
+
+.Banner{
+	position: relative;
+	width:800px;
+	height:200px;
+}
+
+.Logo{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 170px;
+	height: 50px;
+}
+
+/*All CSS code for vertical navigation menu*/
+.Vertical_Navigation_Menu{
+	margin-top:1px;
+	float:left;
+	height:710px;
+    width: 170px;
+	background-color:#542163;
+}
+
+.Vertical_Navigation_Menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: #542163;
+}
+
+.Vertical_Navigation_Menu li a{
+    display: block;
+    padding: 4px 6px;
+	text-align:center;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.Vertical_Navigation_Menu li a:hover {
+    background-color: #D2302F;
+    color: white;
+}
+
+/*Container that holds all information for profile*/
+.Content_Container{
+	float:left;
+	width:606px;
+    padding: 1px 4px;
+}
+
+/*Container for staff picture and important information*/
+.PictureInformation_Container{
+	width:616px;;
+	float:left;
+    padding: 5px 5px;
+	background-color: #DCDCDC;
+}
+
+/*Picture for staff member*/
+.Profile_Picture img{
+	float:left;
+	width:107px;
+	height:133px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+/*All CSS code for text within the important information container*/
+.Important_Information{
+	float:left;
+    padding: 4px 10px;
+	width:70%;
+	background-color: #DCDCDC;
+}
+
+.Name{
+	font-size: 26px;
+    font-weight: bold;
+	margin: 3px;
+}
+
+.Job{
+	font-size: 18px;
+    font-weight: bold;
+	margin: 3px;
+}
+
+.Department{
+	font-size: 16px;
+	margin: 3px;
+}
+
+.Contact{
+	font-size: 14px;
+	margin: 3px;
+}
+
+/*Container for horizontal menu and selected content*/
+.MenuContent_Container{
+	float:left;
+	padding-top:4px;
+	width:100%;
+}
+
+/*All CSS for horizontal navigation menu*/
+.Horizontal_Navigation_Bar{
+	float:left;
+}
+
+.Horizontal_Navigation_Bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #542163;
+}
+
+.Horizontal_Navigation_Bar li{
+    float:left;
+    border-right: 2px solid white;
+}
+
+.Horizontal_Navigation_Bar li a{
+    display: block;
+	color: white;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+.Horizontal_Navigation_Bar li a:hover {
+    background-color: #D2302F;
+    color: white;
+}
+
+/*All CSS for content container and it's text*/
+.Content{
+	float:left;
+	width: 100%;
+	height: 535px;
+    padding: 4px 10px;
+	background-color: #DCDCDC;
+}
+
+.Heading{
+	font-size: 12px;
+	margin:4px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+.Standard{
+	font-size: 12px;
+	margin:4px;
+}
+
+/*Used to create a break in the flow, moving content to next line*/
+.Clear{
+    clear: left;
+}
+
+/*Used to display which data is shown*/
+.Overview{
+	display:block;
+}
+
+.Publications{
+	display:none;
+}
+
+.Research{
+	display:none;
+}

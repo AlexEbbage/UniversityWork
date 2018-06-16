@@ -1,0 +1,73 @@
+EXERCISE 1 TEST
+
+Create a new priority queue:
+Queue contents: <>
+
+Call isempty() on empty queue:
+true
+
+Call front() on empty queue:
+ERROR: assignment1.QueueException: Tried to apply front() to empty queue.
+
+Call frontpri() on empty queue:
+ERROR: assignment1.QueueException: Tried to apply frontpri() to empty queue.
+
+Call deletefront() on empty queue:
+ERROR: assignment1.QueueException: Tried to apply deletefront() to empty queue.
+
+Add 'Apple' with priority 0:
+ERROR: assignment1.QueueException: Tried to apply addtopq('Apple', 0) with priority outside range 1-20.
+
+Add 'Banana' with priority 21:
+ERROR: assignment1.QueueException: Tried to apply addtopq('Banana', 21) with priority outside range 1-20.
+
+Add 'Green' with priority 16:
+Queue contents: <'Green':16>
+
+Add 'Black' with priority 1:
+Queue contents: <'Green':16, 'Black':1>
+
+Add 'Grey' with priority 2:
+Queue contents: <'Green':16, 'Grey':2, 'Black':1>
+
+Add 'Blue' with priority 14:
+Queue contents: <'Green':16, 'Blue':14, 'Grey':2, 'Black':1>
+
+Add 'Violet' with priority 8:
+Queue contents: <'Green':16, 'Blue':14, 'Violet':8, 'Grey':2, 'Black':1>
+
+Add 'Indigo' with priority 10:
+Queue contents: <'Green':16, 'Blue':14, 'Indigo':10, 'Violet':8, 'Grey':2, 'Black':1>
+
+Add 'White' with priority 5:
+Queue contents: <'Green':16, 'Blue':14, 'Indigo':10, 'Violet':8, 'White':5, 'Grey':2, 'Black':1>
+
+Add 'Red' with priority 19:
+Queue contents: <'Red':19, 'Green':16, 'Blue':14, 'Indigo':10, 'Violet':8, 'White':5, 'Grey':2, 'Black':1>
+
+Add 'Orange' with priority 19:
+Queue contents: <'Red':19, 'Orange':19, 'Green':16, 'Blue':14, 'Indigo':10, 'Violet':8, 'White':5, 'Grey':2, 'Black':1>
+
+Add 'Yellow' with priority 19:
+Queue contents: <'Red':19, 'Orange':19, 'Yellow':19, 'Green':16, 'Blue':14, 'Indigo':10, 'Violet':8, 'White':5, 'Grey':2, 'Black':1>
+
+Add 'Rooster' with priority 20:
+Queue contents: <'Rooster':20, 'Red':19, 'Orange':19, 'Yellow':19, 'Green':16, 'Blue':14, 'Indigo':10, 'Violet':8, 'White':5, 'Grey':2, 'Black':1>
+
+Call isempty():
+false
+
+Call front():
+Returns: Rooster
+
+Call frontpri():
+Returns: 20
+
+Call deletefront():
+Queue contents: <'Red':19, 'Orange':19, 'Yellow':19, 'Green':16, 'Blue':14, 'Indigo':10, 'Violet':8, 'White':5, 'Grey':2, 'Black':1>
+
+Call front():
+Returns: Red
+
+Call frontpri():
+Returns: 19
