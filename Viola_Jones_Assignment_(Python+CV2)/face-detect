@@ -1,0 +1,220 @@
+#!/usr/bin/env python
+import numpy as np
+import cv2
+import sys
+
+#==============================================================================
+# DESCRIPTION
+#==============================================================================
+
+# ORIGINAL COMPARISON CORRECTION
+# ==============================
+# Here is what is returned by running the comparison between vjv.res and vj.res
+# when using the input which allows for extra detail:
+"""
+#------------------------------------------------------------------------------
+# Comparison of vjv.res and vj.res
+#
+# Z-score  class
+#    0.00  no     
+#    3.12  yes    
+#
+# The comparison in the table was performed using McNemar's test:
+#
+#   Z = |Nsf - Nfs| - 1
+#       ---------------
+#         ___________
+#       \|(Nsf + Nfs)
+#
+# where Nsf is the number of cases where the first algorithm succeeded
+# and the second failed, etc.  The Z values in the table are multiplied
+# by the sign of (Nsf - Nfs) so that negative values indicate that
+# vj.res out-performed vjv.res, while positive values
+# indicate that vjv.res out-performed vj.res."
+#------------------------------------------------------------------------------
+"""
+# This is however, wrong, if this equation were to be followed the Z-score
+# would be 2.8284. The equation which was actually used it as follows:
+#
+#   Z = (|Nsf - Nfs| - 1)^2
+#       -------------------
+#            Nsf + Nfs
+
+
+# EXPLANATION OF THE COMPARISON
+# =============================
+# As explained above, Nsf is the number of cases where the first algorithm 
+# suceeded and the second failed, and Nfs is the number of cases where the
+# first algorithm failed and the second succeeded. x^2 is the value for
+#  McNemars test. The -1 is Yate's correction for continuity and is used 
+# when testing for independence in a contingency table. The Z-score is the 
+# McNemar's test statistic and is the root of x^2 or is equal to x. The 
+# Z-values in the table are multiplied by the sign of (Nsf - Nfs) so that 
+# so that negative values indicate that vj.res out-performed vjv.res, while 
+# positive values indicate that vjv.res out-performed vj.res. So, in this 
+# case, vjv.res out-performed vj.res.
+#
+# In regards to the Z-value, the further from 0, the greater the difference
+# between the 2 sets of compared results, while the closer to 0, the greater
+# the similarity between the results. If the square root of Z < 1.96, there
+# is not a significant difference in performance. So, in this case, the root
+# of Z is 1.7677 and so the result is not a significant difference between how
+# vj.res and vjv.res performed. However, vjv.res did out-perform vj.res.
+#
+# By looking at (Nsf + Nfs) we can see how many of the tests produce differing
+# results. If this value is greater than 20, then the McNemar Test will produce
+# meaningful results. In this case, (Nsf + Nfs) = (7 + 1) = 8, so the test will
+# not produce meaningful results. Below a table comparing negative and positive
+# results from both tests can be seen:
+"""
+#--------------------------------------------
+#             |	VJ Positive	 |	VJ Negative |
+#--------------------------------------------
+#VJV Positive |	    176		 |	    7       |
+#--------------------------------------------
+#VJV Negative |	     1	     |	    16      |
+#--------------------------------------------
+"""
+# This table shows that VJV and VJ  both got 176 results as positive and 16
+# results as negative. However, VJV got 7 positive results which VJ didn't
+# get, and VJ got 1 positive results which VJV didn't get. From these values
+# the one-tailed P and two-tailed P values can be determined. In this case
+# the one-tailed P value is 0.0386 and the two-tailed P value is 0.0771.
+# We can also find the odds ratio, which is 7 with a 95% confidence interval
+# extending from 0.899 to 315.483. 
+#
+# The one-tailed P value should be used when trying to determine if one
+# algorithm performs better than the other.
+# The two-tailed P value should be used when assessing whether the performance
+# of two-algorithms differ. If we look at the two-tailed P value of 0.0771,
+# we can see that by conventional criteria, the difference is considered to
+# be statistically insignificant
+
+
+# VJ.RES AND VJV.RES OVERVIEW
+#============================
+# In both the VJ and VJV .html files, you can see a table indicating a series
+# of values. For a given class, the number of tests along with how many of
+# those tests were true-positives, true-negatives, false-positives and
+# false-negatives, followed by the classes accuracy, sensitivity(recall),
+# precision and specificity. Below the table, the equals to reach all the
+# values can also be seen. In both cases, the test number was 200 and neither
+# had any true-negative or false-negative values, so the recall value for both
+# was 1 and the specificity for both was 0.
+#
+# In VJ.html, 184 results were true-positive and 16 were false-positive, this
+# resulted in an accuracy and precision of 0.92. Typically these values would
+# be different but only true values were tested (All the test images had faces
+# in), so no true-negative results were available to affect the accuracy. An
+# accuracy of 92% is not a bad result.
+#
+# In VJV.html, 190 results were true-positive and 10 were false-positive, this
+# resulted in an accuracy and precision of 0.95. As said above, typically these
+# values would be different. An accuracy of 95% is a very good result.
+#
+# From these we can see that VJV, the solution which used the value channel of
+# the image after it had been converted to the HSV colour space, was more 
+# effective at detecting faces than VJ, the solution which used grey channel
+# after converting the colour image to greyscale.
+
+
+# EVALUATION PROCESS IMPROVEMENTS
+# ===============================
+# A Greater Image Pool
+# --------------------
+# By having a greater image pool, the results will vary more, making the
+# difference between each solution's values more likely to be different.
+# This is good because if the value for (nsf + nfs) is greater than 20, 
+# then the results gleaned from it are more significant. Values which are
+# more representative of the solution's capabilities would be produced,
+# specifically the Z-score, accuracy and precision values.
+#
+# Negative Images
+# ---------------
+# A negative set of test images (images without faces) will produce a more 
+# useful set of data, by having false-positive and false-negative values, the
+# values for accuracy, recall(sensitivity) and specificity will actually mean
+# something. The Z-score would almost definitely change and provide a result
+# which is more representative of the McNemar Score Statistic for the given
+# solution.
+#
+# Different XML Cascade Classifier
+# --------------------------------
+# A different classifier will produce different results, so if comparison of
+# a cascade classifier was desired, a larger image pool along with a negative
+# image set would provide a better result. I know from testing that the other
+# XML file available on OpenCV called "haarcascade_frontalface_alt.xml" 
+# performs the task better than the default XML which I chose.
+
+
+# SOURCES USED
+# ============
+# SOURCE: Face Detection Tutorial by OPENCV
+# LINK: https://docs.opencv.org/3.3.0/d7/d8b/tutorial_py_face_detection.html
+# DESC: Used to understand how to do haar cascade classification for feature
+#       detection, how to select a cascade classification XML and how to 
+#		perform multiScaleDetection using the selected XML file. Code was 
+#		taken from the example provided at the bottom of the page.
+
+
+# AUTHOR
+# ======
+# Written by 1504283
+
+
+#==============================================================================
+# FUNCTIONS
+#------------------------------------------------------------------------------
+# VALUE CHANNEL
+#------------------------------------------------------------------------------
+# Takes an image as an argument, converts it to HSV, splits it and returns the
+# value channel.
+#------------------------------------------------------------------------------
+
+def valueChannel(image):
+	HSVImage = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+	h,s,v = cv2.split(HSVImage)
+	return v
+
+
+#==============================================================================
+# MAIN
+#==============================================================================
+# Loads the xml to the cascade classifier and checks at least 1 argument is
+# given along with the filename. If an argument is given, load the image
+# located at the location given as an argument then either use the image as it
+# was inputted or get the value channel from it after converting it to HSV. The
+# default image or the value channel is used in in the XMLs cascade classifier
+# method, detectMultiScale, which returns an array of faces that are found in
+# the image. If 1 face is found then return "yes", but if no or more than 1
+# faces are found then return "no".
+# The default image doesn't need to be converted to greyscale before processing
+# because the method implicitly coverts a color image to greyscale.
+#------------------------------------------------------------------------------
+
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+
+if len (sys.argv) < 2:
+    print >>sys.stderr, "Usage:", sys.argv[0], "<image>..."
+    sys.exit (1)
+
+# Process the files given on the command line.
+for fn in sys.argv[1:]:
+	image = cv2.imread(fn)
+	
+	
+	faces = face_cascade.detectMultiScale(image, 1.3, 5)
+	
+	#value_channel = valueChannel(image)
+	#faces = face_cascade.detectMultiScale(value_channel, 1.3, 5)
+	
+	
+	if(len(faces) == 1):
+		print("yes")
+	else:
+		print("no")
+		
+	
+#==============================================================================
+# END OF FILE
+#==============================================================================

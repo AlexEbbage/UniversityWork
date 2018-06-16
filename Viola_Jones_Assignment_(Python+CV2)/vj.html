@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<HEAD>
+<SCRIPT TYPE="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</SCRIPT>
+<SCRIPT TYPE="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</SCRIPT>
+<LINK HREF='jquiz.css' TYPE='text/css' REL='stylesheet' />
+<SCRIPT TYPE="text/javascript"
+ SRC="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></SCRIPT>
+<SCRIPT TYPE="text/javascript" SRC="jquiz.js"></SCRIPT>
+</HEAD>
+<BODY>
+
+<!-- Calculated from vj.res -->
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="3">
+<TR>
+  <TH>tests</TH><TH>TP</TH><TH>TN</TH><TH>FP</TH>
+  <TH>FN</TH><TH>accuracy</TH><TH>recall</TH><TH>precision</TH>
+  <TH>specificity</TH><TH>class</TH>
+</TR>
+
+<TR>
+  <TD ALIGN="right"> 0 </TD><TD ALIGN="right"> 0 </TD>
+  <TD ALIGN="right"> 0 </TD><TD ALIGN="right"> 0 </TD>
+  <TD ALIGN="right"> 0 </TD><TD ALIGN="right"> 0.00 </TD>
+  <TD ALIGN="right"> 0.00 </TD><TD ALIGN="right"> 0.00 </TD>
+  <TD ALIGN="right"> 0.00 </TD><TD ALIGN="center"> <B>no</B> </TD>
+</TR>
+
+<TR>
+  <TD ALIGN="right"> 200 </TD><TD ALIGN="right"> 184 </TD>
+  <TD ALIGN="right"> 0 </TD><TD ALIGN="right"> 16 </TD>
+  <TD ALIGN="right"> 0 </TD><TD ALIGN="right"> 0.92 </TD>
+  <TD ALIGN="right"> 1.00 </TD><TD ALIGN="right"> 0.92 </TD>
+  <TD ALIGN="right"> 0.00 </TD><TD ALIGN="center"> <B>yes</B> </TD>
+</TR>
+
+<TR>
+  <TD ALIGN="right"> 200 </TD><TD ALIGN="right"> 184 </TD>
+  <TD ALIGN="right"> 0 </TD><TD ALIGN="right"> 16 </TD>
+  <TD ALIGN="right"> 0 </TD><TD ALIGN="right"> 0.92 </TD>
+  <TD ALIGN="right"> 1.00 </TD><TD ALIGN="right"> 0.92 </TD>
+  <TD ALIGN="right"> 0.00 </TD><TD ALIGN="center"> <B>overall</B> </TD>
+</TR>
+</TABLE>
+</P>
+
+<P ALIGN="center">Error rates calculated from vj.res</P>
+<P> The table shown above summarizes the performance of the algorithm on the
+tests in <TT> vj.res </TT> as calculated by
+<A HREF="http://fact.essex.ac.uk">FACT</A>,
+where TP is the number of true positives <EM>etc</EM>, <EM>N</EM> is the
+number of tests, and
+$$\mbox{accuracy} = \frac{\mbox{TP} + \mbox{TN}}{N}$$
+$$\mbox{precision} = \frac{\mbox{TP}}{\mbox{TP} + \mbox{FP}}$$
+$$\mbox{sensitivity} = \mbox{recall} = \frac{\mbox{TP}}
+    {\mbox{TP} + \mbox{FN}}$$
+$$\mbox{specificity} = \frac{\mbox{TN}}{\mbox{FP} + \mbox{TN}}$$
+
+<TABLE ALIGN="center" BORDER="1">
+<TR>
+ <TD></TD> <TD COLSPAN="2" ALIGN="center">expected </TD></TR>
+<TR>  <TD> actual</TD>
+  <TH>      yes</TH>
+</TR>
+<TR>
+  <TH>       no</TH>
+  <TD ALIGN="right">        16 </TD>
+</TR>
+<TR>
+  <TH>      yes</TH>
+  <TD ALIGN="right">       184 </TD>
+</TR>
+</TABLE>
+</P>
+<P ALIGN="center">Confusion matrix calculated from vj.res</P>
+
+<P>The above table gives the corresponding class confusion matrix.
+Here, the element at row <EM>r</EM> and column <EM>c</EM> indicates
+that class <EM>r</EM> was obtained when class <EM>c</EM> should have
+been found.</P>
+
+</BODY>
+</HTML>
