@@ -1,2 +1,2 @@
 # UniversityWork
-Work done from my time throughout University
+Work done throughout my time at Uni.
