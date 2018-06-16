@@ -1,0 +1,62 @@
+SET DATABASE UNIQUE NAME HSQLDB4BFAAEC33C
+SET DATABASE GC 0
+SET DATABASE DEFAULT RESULT MEMORY ROWS 0
+SET DATABASE EVENT LOG LEVEL 0
+SET DATABASE TRANSACTION CONTROL LOCKS
+SET DATABASE DEFAULT ISOLATION LEVEL READ COMMITTED
+SET DATABASE TRANSACTION ROLLBACK ON CONFLICT TRUE
+SET DATABASE TEXT TABLE DEFAULTS ''
+SET DATABASE SQL NAMES FALSE
+SET DATABASE SQL REFERENCES FALSE
+SET DATABASE SQL SIZE TRUE
+SET DATABASE SQL TYPES FALSE
+SET DATABASE SQL TDC DELETE TRUE
+SET DATABASE SQL TDC UPDATE TRUE
+SET DATABASE SQL TRANSLATE TTI TYPES TRUE
+SET DATABASE SQL CONCAT NULLS TRUE
+SET DATABASE SQL UNIQUE NULLS TRUE
+SET DATABASE SQL CONVERT TRUNCATE TRUE
+SET DATABASE SQL AVG SCALE 0
+SET DATABASE SQL DOUBLE NAN TRUE
+SET FILES WRITE DELAY 500 MILLIS
+SET FILES BACKUP INCREMENT TRUE
+SET FILES CACHE SIZE 10000
+SET FILES CACHE ROWS 50000
+SET FILES SCALE 32
+SET FILES LOB SCALE 32
+SET FILES DEFRAG 0
+SET FILES NIO TRUE
+SET FILES NIO SIZE 256
+SET FILES LOG TRUE
+SET FILES LOG SIZE 50
+CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
+ALTER USER SA SET LOCAL TRUE
+CREATE SCHEMA PUBLIC AUTHORIZATION DBA
+SET SCHEMA PUBLIC
+CREATE MEMORY TABLE PUBLIC.PRODUCT(PID VARCHAR(256),ARTIST VARCHAR(256),TITLE VARCHAR(256),DESCRIPTION VARCHAR(256),PRICE INTEGER,THUMBNAIL VARCHAR(256),FULLIMAGE VARCHAR(256))
+CREATE MEMORY TABLE PUBLIC.ORDERS(PID VARCHAR(256),ORDERID VARCHAR(256),EMAIL VARCHAR(256),QUANTITY INTEGER,PRICE INTEGER)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 1
+SET DATABASE DEFAULT INITIAL SCHEMA PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.SQL_IDENTIFIER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.YES_OR_NO TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.TIME_STAMP TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CARDINAL_NUMBER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CHARACTER_DATA TO PUBLIC
+GRANT DBA TO SA
+SET SCHEMA SYSTEM_LOBS
+INSERT INTO BLOCKS VALUES(0,2147483647,0)
+SET SCHEMA PUBLIC
+INSERT INTO PRODUCT VALUES('art4','Stabilo','Rubber','A high quality plastic rubber for artists.',299,'thumbnails/art4.png','images/art4.png')
+INSERT INTO PRODUCT VALUES('art5','Derwent','Charcoal Pencils','Made from natural charcoal particles mixed with handpicked clays, comes in a range of grades..',716,'thumbnails/art5.png','images/art5.png')
+INSERT INTO PRODUCT VALUES('art6','Sakura','Fine Liner Set','Unlike dye-based ink found in most pens and marks, this will not feather, bleed or fade in the sun.',1595,'thumbnails/art6.png','images/art6.png')
+INSERT INTO PRODUCT VALUES('art7','Staedtler','Colouring Pencil Set','Basic wooden colouring pencils, great for artists just starting off.',312,'thumbnails/art7.png','images/art7.png')
+INSERT INTO PRODUCT VALUES('art8','Major Brushes','Watercolour Paints','A range of ready mixed watercolour paint blocks, contained in a durable metal tin.',348,'thumbnails/art8.png','images/art8.png')
+INSERT INTO PRODUCT VALUES('art9','Staedtler','Coloured Felt Tip Pens Set','An assorted set of felt tip pens, with sturdy pressure resistant tips.',598,'thumbnails/art9.png','images/art9.png')
+INSERT INTO PRODUCT VALUES('art10','Daley Rowney','Coloured Oil Paints Set','Traditionally crafted oil colour paints with a soft buttery consistency and high pigment loading.',1708,'thumbnails/art10.png','images/art10.png')
+INSERT INTO PRODUCT VALUES('art11','Derwent','Sketch Pencils Set','Made from natural wood barrels and high quality graphite, for a long lasting point.',499,'thumbnails/art11.png','images/art11.png')
+INSERT INTO PRODUCT VALUES('game1','Bioware','Mass Effect Andromeda Poster','Journey to the Andromeda galaxy and lead the fight to find a new home in hostile territory as a pathfinder.',4999,'thumbnails/game1.png','images/game1.png')
+INSERT INTO PRODUCT VALUES('game2','Bioware','Mass Effect 2 Poster','A sci-fi role-playing epic. Delve deeper into the Mass Effect universe and discover the fate of Commander Shepard.',2999,'thumbnails/game2.png','images/game2.png')
+INSERT INTO PRODUCT VALUES('game3','Bethesda','Elder Scrolls: Skyrim Poster','The most popular fantasy RPG in history, remastered in stunning HD and winner of over 200 GotY awards.',999,'thumbnails/game3.png','images/game3.png')
+INSERT INTO PRODUCT VALUES('game4','Guerilla Games','Horizon Zero Dawn Poster','Dive into lush post-apocalyptic world, where machines have dominated the world with unknown purpose.',4392,'thumbnails/game4.png','images/game4.png')
+INSERT INTO PRODUCT VALUES('game5','Valve','Half-Life 3 Poster','The most anticipated game of all time, pending release date.',66666,'thumbnails/game5.png','images/game5.png')
+INSERT INTO PRODUCT VALUES('game6','Naughty Dog','Uncharted 4 Poster','Embark on Nathan Drake''s greatest adventure in a globe-trotting journey in pursuit of a historical conspiracy.',1899,'thumbnails/game6.png','images/game6.png')
